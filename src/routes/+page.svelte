@@ -27,7 +27,7 @@
         </CompanyDropdown>
 
         <CompanyDropdown> 
-            <FlameDevLogo size="300"/>
+            <FlameDevLogo size="450"/>
         </CompanyDropdown>
 
         <CompanyDropdown> 
