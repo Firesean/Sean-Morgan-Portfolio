@@ -12,20 +12,17 @@
         "title": "Founder",
         "length": "2018 - Present",
         "descriptions": [
-        "Full Stack Development",
         "Automation",
         "Python",
         "ADB",
         "Node.js",
         "Svelte",
+        "C++",
         "TailwindCSS",
         "Vercel",
-        "Web Hosting",
         "APIs",
         "UI/UX Design",
         "Databases",
-        "C++",
-        "Arduino",
         "Github"
         ]
     },

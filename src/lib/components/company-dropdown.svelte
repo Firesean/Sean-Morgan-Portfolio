@@ -15,7 +15,7 @@
             <h1 class="font-semibold text-md lg:text-xl xl:text-2xl text-wrap text-center self-center">{company}</h1>
             <h2 class="font-semibold text-sm lg:text-lg xl:text-xl text-wrap text-center self-center text-yellow-400">{title}</h2>
             <h3 class="font-semibold text-xs lg:text-md xl:text-lg self-start">{length}</h3>
-            <ul class="flex flex-wrap text-wrap justify-start self-start gap-4 text-xs lg:text-md xl:text-lg p-2">
+            <ul class="flex flex-wrap text-wrap justify-start self-start gap-4 text-xs lg:text-sm xl:text-md p-2">
               {#each descriptions as description}
                 <li>• {description}</li>
               {/each}
