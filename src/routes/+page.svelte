@@ -75,23 +75,48 @@
         "Figma Recreation",
         "Github",
         "UI/UX Design",
-        "A/B Testing"
         ]
     }
     ];
-</script>
-<div class="flex flex-wrap justify-center">
-    <!-- <nav class="h-[40px] flex justify-end items-center bg-slate-400">
-        test
-    </nav>
-    <div class="h-screen w-[100%] split-background">
-        <div class="bg-white h-[35em] w-[35em] center">
-            <FlameDevLogo />
 
-            <InfluentialLogo />
-            <PreflectLogo />
+    let showOptions = false;
+  
+    function toggleOn() {
+        showOptions = true;
+    }
+
+    function toggleOff() {
+        showOptions = false;
+    }
+</script>
+  
+<style>
+    .option {
+      @apply bg-white bg-opacity-80 py-2 px-4 rounded-lg text-gray-800 cursor-pointer absolute;
+    }
+  
+    .option:hover {
+      @apply bg-opacity-100;
+    }
+</style>
+
+<div class="flex flex-col justify-center">
+    <div class="p-12 relative" on:mouseenter={toggleOn} on:mouseleave={toggleOff}>
+        <div class="bg-white rounded-full p-4 m-auto bg-opacity-20 h-[32vh] w-[32vh] relative" >
+          <img src="src/lib/images/sean_morgan.jpg" class="h-full w-full rounded-full"/>
+          {#if showOptions}
+            <div class="absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%);">
+              {#each Array(5) as _, index}
+                <div class="option opacity-70 text-opacity-100" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate({index * 225 / 5 - 90}deg) translateY(-14rem);">Option {index + 1}</div>
+              {/each}
+            </div>
+          {/if}
         </div>
-    </div> -->
+        <h1 class="text-center text-6xl text-white font-bold">
+          Sean Morgan
+        </h1>
+    </div>
+    
     <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         <CompanyDropdown company={companies[0].company} title={companies[0].title} length={companies[0].length} descriptions={companies[0].descriptions}> 
             <FlameDevLogo size="450"/>
