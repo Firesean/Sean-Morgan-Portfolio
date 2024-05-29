@@ -5,6 +5,7 @@
     import PreflectLogo from "$lib/components/preflect-logo.svelte";
     import DesignHedgeLogo from "$lib/components/design-hedge-logo.svelte";
 
+    let options = ["Github", "LinkedIn", "Flame-Dev", "Skills", "Experience"]
 
     let companies = [
     {
@@ -89,7 +90,7 @@
   
 <style>
     .option {
-      @apply bg-white bg-opacity-80 py-2 px-4 rounded-lg text-gray-800 cursor-pointer absolute;
+      @apply bg-white bg-opacity-90 py-1 px-3 h-12 rounded-lg text-gray-900 cursor-pointer absolute text-sm text-nowrap font-semibold text-center;
     }
   
     .option:hover {
@@ -99,13 +100,15 @@
 
 <div class="flex flex-col justify-center">
     <div class="p-12 relative" on:mouseenter={toggleOn} on:mouseleave={toggleOff}>
-        <div class="bg-white rounded-full p-4 m-auto bg-opacity-20 h-[32vh] w-[32vh] relative" >
+        <div class="bg-white rounded-full p-2 m-auto bg-opacity-20 h-[32vh] w-[32vh] relative" >
           <img src="https://media.licdn.com/dms/image/D5603AQHMYlxZ9e0mKw/profile-displayphoto-shrink_200_200/0/1716951794354?e=1722470400&v=beta&t=TLaIEA6PpQ_4kzuQKe4QsDlzxpdIrCEwHeSDOodbl8w" class="h-full w-full rounded-full"/>
           {#if showOptions}
             <div class="absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%);">
-              {#each Array(5) as _, index}
-                <div class="option opacity-70 text-opacity-100" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate({index * 225 / 5 - 90}deg) translateY(-14rem);">Option {index + 1}</div>
-              {/each}
+                {#each options as option, index}
+                <div class="option opacity-70 text-opacity-100" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate({index * 225 / 5 - 90}deg) translateY(-12rem); display: flex; justify-content: center; align-items: center;">
+                    {option}
+                </div>
+                {/each}
             </div>
           {/if}
         </div>
