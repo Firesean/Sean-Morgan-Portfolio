@@ -100,7 +100,7 @@
 <div class="flex flex-col justify-center">
     <div class="p-12 relative" on:mouseenter={toggleOn} on:mouseleave={toggleOff}>
         <div class="bg-white rounded-full p-4 m-auto bg-opacity-20 h-[32vh] w-[32vh] relative" >
-          <img src="/images/sean_morgan.jpg" class="h-full w-full rounded-full"/>
+          <img src="https://media.licdn.com/dms/image/D5603AQHMYlxZ9e0mKw/profile-displayphoto-shrink_200_200/0/1716951794354?e=1722470400&v=beta&t=TLaIEA6PpQ_4kzuQKe4QsDlzxpdIrCEwHeSDOodbl8w" class="h-full w-full rounded-full"/>
           {#if showOptions}
             <div class="absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%);">
               {#each Array(5) as _, index}
