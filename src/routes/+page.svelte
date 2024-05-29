@@ -5,7 +5,13 @@
     import PreflectLogo from "$lib/components/preflect-logo.svelte";
     import DesignHedgeLogo from "$lib/components/design-hedge-logo.svelte";
 
-    let options = ["Github", "LinkedIn", "Flame-Dev", "Skills", "Experience"]
+    let options = {
+        "Github" : "https://github.com/Firesean", 
+        "LinkedIn" : "https://www.linkedin.com/in/firesean/", 
+        "Flame-Dev" : "https://flame-dev.com/", 
+        "Skills" : "skills", 
+        "Experience" : "experience"
+    }
 
     let companies = [
     {
@@ -104,10 +110,12 @@
           <img src="https://media.licdn.com/dms/image/D5603AQHMYlxZ9e0mKw/profile-displayphoto-shrink_200_200/0/1716951794354?e=1722470400&v=beta&t=TLaIEA6PpQ_4kzuQKe4QsDlzxpdIrCEwHeSDOodbl8w" class="h-full w-full rounded-full"/>
           {#if showOptions}
             <div class="absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%);">
-                {#each options as option, index}
-                <div class="option opacity-70 text-opacity-100" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate({index * 225 / 5 - 90}deg) translateY(-12rem); display: flex; justify-content: center; align-items: center;">
-                    {option}
-                </div>
+                {#each Object.keys(options) as option, index}
+                <a href={options[option]} target="_blank">
+                    <div class="option opacity-70 text-opacity-100" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate({index * 225 / 5 - 90}deg) translateY(-12rem); display: flex; justify-content: center; align-items: center;">
+                        {option}
+                    </div>
+                </a>
                 {/each}
             </div>
           {/if}
