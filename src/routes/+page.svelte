@@ -125,7 +125,7 @@
         </h1>
     </div>
     
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 self-center pb-[15em]">
         <CompanyDropdown company={companies[0].company} title={companies[0].title} length={companies[0].length} descriptions={companies[0].descriptions}> 
             <FlameDevLogo size="450"/>
         </CompanyDropdown>
