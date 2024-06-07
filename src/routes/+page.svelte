@@ -112,7 +112,7 @@
             <div class="absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%);">
                 {#each Object.keys(options) as option, index}
                 <a href={options[option]} target="_blank">
-                    <div class="option opacity-70 text-opacity-100" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate({index * 225 / 5 - 90}deg) translateY(-15rem); display: flex; justify-content: center; align-items: center;">
+                    <div class="option opacity-70 text-opacity-100" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate({index * 225 / 5 - 90}deg) translateY(-12rem); display: flex; justify-content: center; align-items: center;">
                         {option}
                     </div>
                 </a>
