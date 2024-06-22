@@ -31,14 +31,14 @@
   }
   
   .text-title {
-    font-size: .8em;
+    font-size: .9em;
   }
   
   .text-length {
-    font-size:.75em;
+    font-size:.8em;
   }
   
   .text-description {
-    font-size: .65em;
+    font-size: .7em;
   }
 </style>
