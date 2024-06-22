@@ -11,10 +11,10 @@
       <div class="hover:overflow-hidden relative w-full h-full flex justify-center items-center transition-transform duration-300 scale-[0.5] group-hover:scale-100">
         <slot />
         <div class="absolute inset-0 flex flex-col justify-center items-center bg-gray-900 bg-opacity-85 text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 p-4 gap-2">
-          <h1 class="font-semibold text-center">{company}</h1>
-          <h2 class="font-semibold text-center text-yellow-400">{title}</h2>
-          <h3 class="font-semibold self-start">{length}</h3>
-          <ul class="flex flex-wrap justify-start gap-4 p-2 ">
+          <h1 class="font-semibold text-center text-company">{company}</h1>
+          <h2 class="font-semibold text-center text-title text-yellow-400">{title}</h2>
+          <h3 class="font-semibold self-start text-length">{length}</h3>
+          <ul class="flex flex-wrap justify-start gap-4 p-2 text-description">
             {#each descriptions as description}
               <li>• {description}</li>
             {/each}
@@ -24,3 +24,21 @@
     </div>
   </div>
 </div>
+
+<style>
+  .text-company {
+    font-size: 1em;
+  }
+  
+  .text-title {
+    font-size: .8em;
+  }
+  
+  .text-length {
+    font-size:.75em;
+  }
+  
+  .text-description {
+    font-size: .65em;
+  }
+</style>
