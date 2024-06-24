@@ -23,10 +23,8 @@
             "length": "Sept 2017 - Mar 2018",
             "descriptions": [
                 "Customer Service",
-                "Routined Tasks",
                 "Adapability",
                 "Ride Maintenance",
-                "Cleaning",
                 "Situational Awareness",
                 "Safety",
             ]
@@ -38,12 +36,8 @@
                 "Customer Service",
                 "Secret Clearance",
                 "Attention to Details",
-                "Data Filing",
                 "Data Entry",
-                "On Time Deliveries",
-                "Routined Tasks",
                 "Adapability",
-                "Cleaning",
             ]
         },
         "Flame Development" : {
