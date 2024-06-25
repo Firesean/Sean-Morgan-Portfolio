@@ -141,7 +141,7 @@
                 {:else if details[0] == "Preflect Ads"}
                     <PreflectLogo size="300"/>
                 {:else if details[0] == "Design Hedge"}
-                    <DesignHedgeLogo size="300"/>
+                    <DesignHedgeLogo size="250"/>
                 {:else if details[0] == "Mini Gran Prix"}
                     <MiniGranPrixLogo size="350" />
                 {/if}
