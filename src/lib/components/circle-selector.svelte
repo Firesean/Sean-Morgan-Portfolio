@@ -1,6 +1,12 @@
 <script>
     export let showOptions = false;
-    export let options;
+    export let options = {
+        "Github" : "https://github.com/Firesean", 
+        "LinkedIn" : "https://www.linkedin.com/in/firesean/", 
+        "Flame-Dev" : "https://flame-dev.com/", 
+        "Skills" : "skills", 
+        "Experience" : "experience"
+    }
 </script>
 
 <style>
