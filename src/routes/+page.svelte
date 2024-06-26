@@ -1,6 +1,7 @@
 <script>
     import ViewSelector from "$lib/components/view-selector.svelte";
     import ExperiencePage from "$lib/components/pages/experience-page.svelte";
+    import { onMount } from "svelte";
 
     let views = [
 		"Skills",
@@ -19,6 +20,15 @@
     function toggleOff() {
         showOptions = false;
     }
+
+    onMount(() => {
+        if (window.screen.orientation && window.screen.orientation.lock) {
+            window.screen.orientation.lock("portrait")
+                .then(() => console.log("Orientation locked to portrait mode"))
+                .catch(err => console.error("Failed to lock orientation:", err));
+        }
+    });
+
 </script>
 
 <ViewSelector bind:views bind:selectedView />
