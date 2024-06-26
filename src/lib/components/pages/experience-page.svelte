@@ -13,13 +13,9 @@
     let isMobile = false;
 
     onMount(() => {
-        const mq = window.matchMedia('(max-width: 768px)');
-        isMobile = mq.matches;
-
-        // Listen to changes in viewport width
-        mq.addListener((e) => {
-            isMobile = e.matches;
-        });
+        if (window.navigator.userAgent.toLowerCase().match(/mobile/i)){
+            isMobile = true;
+        }
     });
 
     let companies = {
@@ -130,11 +126,3 @@
         </CompanyDropdown>
     {/each}
 </div>
-
-<style>
-    @media (max-width: 768px) {
-        .grid-cols-1 {
-            grid-template-columns: repeat(1, minmax(0, 1fr));
-        }
-    }
-</style>
