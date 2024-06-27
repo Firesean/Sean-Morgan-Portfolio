@@ -1,7 +1,8 @@
 <script>
     import ViewSelector from "$lib/components/view-selector.svelte";
     import ExperiencePage from "$lib/components/pages/experience-page.svelte";
-    import { onMount } from "svelte";
+    import NetworkPage from "$lib/components/pages/network-page.svelte";
+    import AboutPage from "$lib/components/pages/about-page.svelte";
 
     let views = [
 		"Skills",
@@ -21,21 +22,13 @@
         showOptions = false;
     }
 
-    onMount(() => {
-        if (window.screen.orientation && window.screen.orientation.lock) {
-            window.screen.orientation.lock("portrait")
-                .then(() => console.log("Orientation locked to portrait mode"))
-                .catch(err => console.error("Failed to lock orientation:", err));
-        }
-    });
-
 </script>
 
 <ViewSelector bind:views bind:selectedView />
 
-<div class="flex flex-col justify-center">
+<div class="flex flex-col justify-center w-full">
     <!-- svelte-ignore a11y-no-static-element-interactions -->
-    <div class="p-12 relative" on:mouseenter={toggleOn} on:mouseleave={toggleOff}>
+    <div class="p-20 relative" on:mouseenter={toggleOn} on:mouseleave={toggleOff}>
         <div class="bg-white rounded-full p-2 m-auto bg-opacity-20 h-[24vh] w-[24vh] relative aspect-square" >
           <!-- svelte-ignore a11y-missing-attribute -->
           <img src="https://media.licdn.com/dms/image/D5603AQHMYlxZ9e0mKw/profile-displayphoto-shrink_200_200/0/1716951794354?e=1722470400&v=beta&t=TLaIEA6PpQ_4kzuQKe4QsDlzxpdIrCEwHeSDOodbl8w" 
@@ -50,7 +43,11 @@
 
     {#if views[selectedView].toLowerCase() == "experience"}
         <ExperiencePage />
+    {:else if views[selectedView].toLowerCase() == "network"}
+        <NetworkPage />
+    {:else if views[selectedView].toLowerCase() == "about"}
+        <AboutPage />
     {:else}
-        <h1>Nothing here yet</h1>
+        <h1 class="self-center">Nothing here yet</h1>
     {/if}
 </div>
