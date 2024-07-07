@@ -24,7 +24,6 @@
     function toggleOff() {
         showOptions = false;
     }
-
 </script>
 
 <ViewSelector bind:views bind:selectedView />

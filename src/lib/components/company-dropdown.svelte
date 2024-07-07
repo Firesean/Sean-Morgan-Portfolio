@@ -27,11 +27,11 @@
 
 <style>
   .text-container {
-    font-size: clamp(0.8rem, 1vw, 1.5rem);
+    font-size: clamp(0.9rem, 1vw, 1.5rem);
   }
 
   .text-company {
-    font-size: clamp(1rem, 1vw, 1rem);
+    font-size: clamp(1rem, 1vw, 1.5rem);
   }
 
   .text-title {
