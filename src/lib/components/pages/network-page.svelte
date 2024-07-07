@@ -1,1 +1,1 @@
-<h3 class="self-center">Nothing is here yet</h3>
+<h3 class="self-center pb-[18.6em]">Nothing is here yet</h3>

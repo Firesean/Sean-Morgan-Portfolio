@@ -1,0 +1,27 @@
+.dark {
+    @apply text-white bg-gray-800;
+}
+
+.dark .profile div, .dark .skill-container-outer, .dark .attached-bar-outer{
+    @apply bg-white;
+}
+
+.dark .toggle-container{
+    @apply text-gray-800 bg-white;
+}
+
+.dark .company-outershell{
+    @apply bg-gray-500;
+}
+
+.dark .company-innershell{
+    @apply bg-gray-900 text-white bg-opacity-85;
+}
+
+.dark .highlight {
+    @apply text-yellow-400;
+}
+
+.dark .skill-container-inner, .dark .attached-bar-inner, .dark .toggle-slider{
+    @apply bg-gray-800;
+}

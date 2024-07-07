@@ -1,0 +1,27 @@
+html {
+    @apply bg-white text-gray-800;
+}
+
+.light .toggle-container{
+    @apply bg-gray-800 text-white;
+}
+
+.light .company-outershell{
+    @apply bg-gray-500;
+}
+
+.light .company-innershell{
+    @apply bg-gray-200 text-gray-800 bg-opacity-85;
+}
+
+.light .skill-container-inner, .light .attached-bar-inner, .light .toggle-slider{
+    @apply bg-white;    
+}
+
+.light .skill-container-outer, .light .attached-bar-outer, .light .profile div{
+    @apply bg-gray-800;
+}
+
+.light .highlight {
+    @apply text-red-500;
+}

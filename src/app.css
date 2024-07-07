@@ -10,16 +10,11 @@
 
 * {
     font-family: "Inter";
-    @apply text-white;
 }
 
 
 h1, h2, h3, h4, h5 {
     font-family: "Unbounded";
-}
-
-html {
-    @apply bg-gray-800;
 }
 
 h1 {
@@ -32,8 +27,4 @@ h2 {
 
 h3 {
     @apply text-2xl font-bold;
-}
-
-.highlight {
-    @apply text-yellow-400;
 }

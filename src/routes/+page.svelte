@@ -28,10 +28,10 @@
 
 <ViewSelector bind:views bind:selectedView />
 
-<div class="flex flex-col justify-center w-full">
+<div class="flex flex-col justify-center w-full h-full">
     <!-- svelte-ignore a11y-no-static-element-interactions -->
-    <div class="p-20" on:mouseenter={toggleOn} on:mouseleave={toggleOff}>
-        <div class="bg-white rounded-full p-2 m-auto bg-opacity-20 h-[24vh] w-[24vh] relative aspect-square" >
+    <div class="p-20 profile" on:mouseenter={toggleOn} on:mouseleave={toggleOff}>
+        <div class="rounded-full p-2 m-auto !bg-opacity-20 h-[24vh] w-[24vh] relative aspect-square" >
           <!-- svelte-ignore a11y-missing-attribute -->
           <img src={ProfileImage}
           class="h-full w-full rounded-full select-none" draggable="false" alt="Sean Morgan"

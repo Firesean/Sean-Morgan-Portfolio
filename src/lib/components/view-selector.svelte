@@ -10,11 +10,11 @@
 
 <style>
     .toggle-container {
-        @apply fixed w-full flex justify-between p-1 gap-8 bg-white opacity-60 z-10 top-0 text-gray-800;
+        @apply fixed w-full flex justify-between p-1 gap-8 opacity-60 z-10 top-0 ;
     }
 
     .toggle-slider {
-        @apply absolute bottom-0 left-0 h-1.5 bg-gray-800;
+        @apply absolute bottom-0 left-0 h-1.5;
         transition: transform 0.3s ease;
     }
 
