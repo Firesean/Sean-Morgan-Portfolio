@@ -52,6 +52,6 @@
     {:else if views[selectedView].toLowerCase() == "skills"}
         <SkillsPage />
     {:else}
-        <h1 class="self-center">Nothing here yet</h1>
+        <h3 class="self-center">Nothing here yet</h3>
     {/if}
 </div>

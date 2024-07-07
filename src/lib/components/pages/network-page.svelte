@@ -1,1 +1,1 @@
-<h1 class="self-center">Nothing is here yet</h1>
+<h3 class="self-center">Nothing is here yet</h3>

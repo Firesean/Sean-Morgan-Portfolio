@@ -27,22 +27,22 @@
 
 <style>
   .text-container {
-    font-size: clamp(0.8rem, 1vw, 1.2rem);
+    font-size: clamp(0.8rem, 1vw, 1.5rem);
   }
 
   .text-company {
-    font-size: clamp(0.7rem, 1vw, 1rem);
+    font-size: clamp(1rem, 1vw, 1rem);
   }
 
   .text-title {
-    font-size: clamp(0.65rem, 1vw, 0.95rem);
+    font-size: clamp(0.9rem, 1vw, 0.95rem);
   }
 
   .text-length {
-    font-size: clamp(0.55rem, 1vw, 0.9rem);
+    font-size: clamp(0.7rem, 1vw, 0.9rem);
   }
 
   .text-description {
-    font-size: clamp(0.4rem, 1vw, 0.85rem);
+    font-size: clamp(.9rem, 1vw, 0.9rem);
   }
 </style>
