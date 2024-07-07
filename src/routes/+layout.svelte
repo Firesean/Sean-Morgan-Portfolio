@@ -5,12 +5,21 @@
     import SunIcon from "$lib/components/icons/sun-icon.svelte";
     import MoonIcon from "$lib/components/icons/moon-icon.svelte";
 
+	import { onMount } from "svelte";
+
 	let modes = ["dark", "light"];
 	let selectedMode = 0;
 
 	function cycleMode() {
-		selectedMode = (selectedMode + 1) % modes.length;
-	}
+        selectedMode = (selectedMode + 1) % modes.length;
+        if (typeof document !== 'undefined') {
+            document.documentElement.className = modes[selectedMode];
+        }
+    }
+
+    onMount(() => {
+        document.documentElement.className = modes[selectedMode];
+	})
 </script>
 
 <header>

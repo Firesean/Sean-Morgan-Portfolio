@@ -6,7 +6,7 @@
 </script>
 
 
-<div class="w-full flex flex-col gap-16 pb-[2em]">
+<div class="w-full flex flex-col gap-16">
     <AttachedBar infoBarHeight={infoBarHeight} title="Introduction">
         <div class="flex flex-col w-full gap-4 justify-center" style="font-size: clamp(0.65rem, 1vw, 1.5rem);">
             <span class="self-center">Welcome to my portfolio page!</span>

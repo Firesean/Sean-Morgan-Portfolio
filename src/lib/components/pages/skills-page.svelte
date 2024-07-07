@@ -3,9 +3,9 @@
 
 </script>
 
-<div class="h-full pb-[72em]">
-    <div class="flex flex-row flex-wrap justify-center mt-[-100px] mx-auto">
-        <div class="flex flex-row flex-wrap gap-16">
+<div class="h-full">
+    <div class="flex flex-row flex-wrap justify-center mx-auto">
+        <div class="flex flex-row flex-wrap gap-16 justify-center">
             {#each Array(8) as item, i}
                 <SkillsContainer index={i}/>
             {/each}
