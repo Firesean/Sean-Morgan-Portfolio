@@ -5,6 +5,7 @@
     import AboutPage from "$lib/components/pages/about-page.svelte";
     import SkillsPage from "$lib/components/pages/skills-page.svelte";
 
+    import ProfileImage from "$lib/assets/images/sean-morgan.jpg";
 
     let views = [
 		"Skills",
@@ -33,7 +34,7 @@
     <div class="p-20" on:mouseenter={toggleOn} on:mouseleave={toggleOff}>
         <div class="bg-white rounded-full p-2 m-auto bg-opacity-20 h-[24vh] w-[24vh] relative aspect-square" >
           <!-- svelte-ignore a11y-missing-attribute -->
-          <img src="https://media.licdn.com/dms/image/D5603AQHMYlxZ9e0mKw/profile-displayphoto-shrink_200_200/0/1716951794354?e=1722470400&v=beta&t=TLaIEA6PpQ_4kzuQKe4QsDlzxpdIrCEwHeSDOodbl8w" 
+          <img src={ProfileImage}
           class="h-full w-full rounded-full select-none" draggable="false" alt="Sean Morgan"
           />
           <!-- <CircleSelector showOptions={showOptions} options={options}/> -->
