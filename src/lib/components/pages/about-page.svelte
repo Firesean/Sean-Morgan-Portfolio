@@ -18,7 +18,7 @@
                 In 2017, I began studying at the <span class="highlight">College of Southern Nevada</span> while working an assortment of jobs
             </li>
             <li>
-                In 2020, I completed my <span class="highlight">Dual Associates in Computing and Information Technology in Programming & Databases</span>.
+                In 2021, I completed my <span class="highlight">Dual Associates in Computing and Information Technology in Programming & Databases</span>.
                 I started my career at <span class="highlight">Influential Network</span> as a <span class="highlight">Quality Assurance Analyst</span>, learning software development and testing
             </li>
             <li>
