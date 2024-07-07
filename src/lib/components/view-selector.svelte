@@ -19,7 +19,7 @@
     }
 
     .toggle-option {
-        @apply text-lg w-full relative text-center pb-1 font-medium flex flex-nowrap justify-center gap-4 self-center;
+        @apply font-bold w-full relative text-center pb-1 flex flex-nowrap justify-center gap-4 self-center;
         cursor: pointer;
     }
 </style>
@@ -30,7 +30,7 @@
         style="transform: translateX({selectedView * 100}%); width: calc(100% / {views.length});"
     ></div>
     {#each views as view, i}
-        <button class="toggle-option" on:click={() => {selectedView = i}}>
+        <button class="toggle-option text-md md:text-2xl" on:click={() => {selectedView = i}}>
             {view}
         </button>
     {/each}

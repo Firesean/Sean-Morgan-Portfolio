@@ -1,65 +1,18 @@
 <script>
-    let infoBarHeight = "350px";
+    import SkillsContainer from "$lib/components/skills-container.svelte";
+
 </script>
 
-<div class="flex flex-row flex-wrap justify-center mt-[-100px]">
+<div class="flex flex-row flex-wrap justify-center mt-[-100px] mx-auto">
     <div class="flex flex-row flex-wrap gap-16">
-        <div class="h-[50em] flex">
-            <div class="bg-white flex h-[70%] p-4 rounded-lg mt-4 relative" style="width: {infoBarHeight};">
-                <div class="h-full w-full bg-gray-800 self-center">
-                </div>
-            </div>
-        </div>
-
-        <div class="h-[50em] flex">
-            <div class="bg-white flex h-[70%] p-4 rounded-lg mt-4 relative top-[10em]" style="width: {infoBarHeight};">
-                <div class="h-full w-full bg-gray-800 self-center">
-                </div>
-            </div>
-        </div>
-
-        <div class="h-[50em] flex">
-            <div class="bg-white flex h-[70%] p-4 rounded-lg mt-4 relative top-[20em]" style="width: {infoBarHeight};">
-                <div class="h-full w-full bg-gray-800 self-center">
-                </div>
-            </div>
-        </div>
-
-        <div class="h-[50em] flex">
-            <div class="bg-white flex h-[70%] p-4 rounded-lg mt-4 relative top-[30em]" style="width: {infoBarHeight};">
-                <div class="h-full w-full bg-gray-800 self-center">
-                </div>
-            </div>
-        </div>
+        {#each Array(4) as item, i}
+            <SkillsContainer index={i}/>
+        {/each}
     </div>
 
-    <div class="flex flex-row flex-wrap gap-16">
-        <div class="h-[50em] flex">
-            <div class="bg-white flex h-[70%] p-4 rounded-lg mt-4 relative" style="width: {infoBarHeight};">
-                <div class="h-full w-full bg-gray-800 self-center">
-                </div>
-            </div>
-        </div>
-
-        <div class="h-[50em] flex">
-            <div class="bg-white flex h-[70%] p-4 rounded-lg mt-4 relative top-[10em]" style="width: {infoBarHeight};">
-                <div class="h-full w-full bg-gray-800 self-center">
-                </div>
-            </div>
-        </div>
-
-        <div class="h-[50em] flex">
-            <div class="bg-white flex h-[70%] p-4 rounded-lg mt-4 relative top-[20em]" style="width: {infoBarHeight};">
-                <div class="h-full w-full bg-gray-800 self-center">
-                </div>
-            </div>
-        </div>
-
-        <div class="h-[50em] flex">
-            <div class="bg-white flex h-[70%] p-4 rounded-lg mt-4 relative top-[30em]" style="width: {infoBarHeight};">
-                <div class="h-full w-full bg-gray-800 self-center">
-                </div>
-            </div>
-        </div>
+    <div class="flex flex-row flex-wrap gap-16 mt-[200px]">
+        {#each Array(4) as item, i}
+            <SkillsContainer index={i}/>
+        {/each}
     </div>
 </div>

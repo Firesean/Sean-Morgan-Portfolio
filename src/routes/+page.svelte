@@ -38,7 +38,7 @@
           />
           <!-- <CircleSelector showOptions={showOptions} options={options}/> -->
         </div>
-        <h1 class="text-center text-4xl font-bold">
+        <h1 class="text-center">
           Sean Morgan
         </h1>
     </div>
