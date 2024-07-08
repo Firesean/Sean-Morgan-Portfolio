@@ -95,7 +95,7 @@
     };
 </script>
 
-<div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 self-center pb-[10em]">
+<div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 self-center pb-[12em]">
     {#each Object.entries(companies) as details}
         <CompanyDropdown company={details[0]} title={details[1].title} length={details[1].length} descriptions={details[1].descriptions}>
             {#if details[0] == "Flame Development"}
