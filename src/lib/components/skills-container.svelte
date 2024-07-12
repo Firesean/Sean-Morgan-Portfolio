@@ -1,11 +1,11 @@
 <script>
-    export let infoBarHeight = "20em";
+    export let infoBarHeight = "400px";
     export let index = 0;
     export let inColumn = 4;
 
-    let yPosition = `${(index % inColumn) * 10}em`;
+    let yPosition = `${(index % inColumn) * -10}em`;
 
-    $: yPosition = `${(index % inColumn) * 10}em`;
+    $: yPosition = `${(index % inColumn) * -10}em`;
 </script>
 
 <div class="h-[600px] flex">

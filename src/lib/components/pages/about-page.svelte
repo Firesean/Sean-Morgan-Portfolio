@@ -3,37 +3,39 @@
 
     let infoBarHeight = "350px";
     let sections = ["Introduction", "Education", "Professional Summary", "Interests", "Self Development"];
+
+
+    let aboutData = {
+        "Introduction" : [
+            "Introduced to programming in 2010.",
+            "Dual Associates from College of Southern Nevada in Computer and Information Technology [Science]",
+            "In 2020, hired as a Quality Assurance Analyst at Influential Network",
+            "In 2023, joined Preflect Ads as a Software Engineer"
+        ],
+        "Education" : [
+            "Dual Associates in Computing and Information Science",
+            "College of Southern Nevada",
+            "Bachelors Degree in Computer Science (Incomplete)",
+            "Western Governors University"
+        ],
+        "Professional Summary" : [
+            "Problem Solver: Good at solving technical issues and improving software",
+            "Team Player: Works well with teams and delivers quality software on time",
+            "Always Learning: Keeps up with new tech trends and improves skills",
+            "Full Stack: Experienced in front-end and back-end development for software performance",
+        ]
+    }
+
 </script>
 
-
 <div class="w-full flex flex-col gap-16">
-    <AttachedBar infoBarHeight={infoBarHeight} title="Introduction">
-        <div class="flex flex-col w-full gap-4 justify-center" style="font-size: clamp(0.65rem, 1vw, 1.5rem);">
-            <span class="self-center">Welcome to my portfolio page!</span>
-            <li>
-                I have been introduced to technology in 2004.
-                My programming journey started in 2010 with <span class="highlight">Roblox (Lua)</span> and <span class="highlight">Minecraft (Java)</span>
-            </li>
-            <li>
-                In 2017, I began studying at the <span class="highlight">College of Southern Nevada</span> while working an assortment of jobs
-            </li>
-            <li>
-                In 2021, I completed my <span class="highlight">Dual Associates in Computing and Information Technology in Programming & Databases</span>.
-                I started my career at <span class="highlight">Influential Network</span> as a <span class="highlight">Quality Assurance Analyst</span>, learning software development and testing
-            </li>
-            <li>
-                After <span class="highlight">Influential</span>, I joined <span class="highlight">Preflect Ads</span> to work as a <span class="highlight">Software Engineer</span> and enchancing small businesses
-            </li>
-        </div>
-    </AttachedBar>
-
-    <AttachedBar infoBarHeight={infoBarHeight} title="Education" attachedSide="right">
-        <div class="flex flex-col w-full gap-4 text-2xl indent-4 justify-center">
-        </div>
-    </AttachedBar>
-
-    <AttachedBar infoBarHeight={infoBarHeight} title="Professional Summary" attachedSide="left">
-        <div class="flex flex-col w-full gap-4 text-2xl indent-4 justify-center">
-        </div>
-    </AttachedBar>
+    {#each Object.keys(aboutData) as title, i}
+        <AttachedBar bind:infoBarHeight={infoBarHeight} title={title} class="attached-bar" attachedSide={i % 2 == 0 ? "left" : "right"}>
+            {#each aboutData[title] as detail, j}
+                <li class:highlight={j % 2 != 0}>
+                    {detail}
+                </li>
+            {/each}
+        </AttachedBar>
+    {/each}
 </div>

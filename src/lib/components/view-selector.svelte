@@ -24,7 +24,7 @@
     }
 </style>
 
-<div class="toggle-container">
+<div class="toggle-container min-w-[400px]">
     <div
         class="toggle-slider"
         style="transform: translateX({selectedView * 100}%); width: calc(100% / {views.length});"

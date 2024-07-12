@@ -43,7 +43,7 @@
   
   <div class="h-full">
     <div class="flex flex-row flex-wrap justify-center mx-auto">
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-16 justify-center -mt-[50px]">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-16 mt-[400px]">
         {#each Array(8) as item, i}
           <SkillsContainer index={i} bind:inColumn />
         {/each}
