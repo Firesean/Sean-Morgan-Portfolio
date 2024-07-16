@@ -5,28 +5,28 @@
 
     let sections = {
         "Introduction" : [
-            "You have a problem, a have a solution",
-            "Web Application, Automation, Scraping, IOT, I tinker in it all",
-            "Enjoy learning and exploring new terrian",
-            "I seek growth in developing my skills"
+            // "You have a problem, a have a solution",
+            // "Web Application, Automation, Scraping, IOT, I tinker in it all",
+            // "Enjoy learning and exploring new terrian",
+            // "I seek growth in developing my skills"
         ],
         "Education" : [
-            "Dual Associates in Computing and Information Science",
-            "College of Southern Nevada",
-            "Bachelors Degree in Computer Science (Incomplete)",
-            "Western Governors University"
+            // "Dual Associates in Computing and Information Science",
+            // "College of Southern Nevada",
+            // "Bachelors Degree in Computer Science (Incomplete)",
+            // "Western Governors University"
         ],
         "Professional Summary" : [
-            "Problem Solver: Analytical and observate, reaching point A to point B",
-            "Team Player: Everyone has a spot they belong",
-            "Always Learning: New tech advancements and skill improvement",
-            "Full Stack: Front-end and Back-end creations",
+            // "Problem Solver: Analytical and observate, reaching point A to point B",
+            // "Team Player: Everyone has a spot they belong",
+            // "Always Learning: New tech advancements and skill improvement",
+            // "Full Stack: Front-end and Back-end creations",
         ],
         "Interests" : [
-            "Actitivies: Hockey / Tennis / Wrestling / Biking",
-            "Video Games:  Dead By Daylight / CSGO / Rainbow 6 Siege / Yugioh / Pokemon",
-            "Dancing: Break Dance / Hip-Hop / Line Dancing / (West Coast / Country) Swing",
-            "Music: Rock / Metal / Country / Rap"
+            // "Actitivies: Hockey / Tennis / Wrestling / Biking",
+            // "Video Games:  Dead By Daylight / CSGO / Rainbow 6 Siege / Yugioh / Pokemon",
+            // "Dancing: Break Dance / Hip-Hop / Line Dancing / (West Coast / Country) Swing",
+            // "Music: Rock / Metal / Country / Rap"
         ]
     }
 
