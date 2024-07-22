@@ -5,6 +5,7 @@
     import AboutPage from "$lib/components/pages/about-page.svelte";
     import SkillsPage from "$lib/components/pages/skills-page.svelte";
 
+
     import ProfileImage from "$lib/assets/images/sean-morgan.jpg";
 
     let views = [
@@ -14,7 +15,7 @@
 		"Network"
 	];
 
-	let selectedView = 1;
+	let selectedView = 3;
     let showOptions = false;
   
     function toggleOn() {
@@ -45,8 +46,8 @@
 
     {#if views[selectedView].toLowerCase() == "experience"}
         <ExperiencePage />
-    {:else if views[selectedView].toLowerCase() == "network"}
-        <NetworkPage />
+    <!-- {:else if views[selectedView].toLowerCase() == "network"}
+        <NetworkPage /> -->
     {:else if views[selectedView].toLowerCase() == "about"}
         <AboutPage />
     {:else if views[selectedView].toLowerCase() == "skills"}

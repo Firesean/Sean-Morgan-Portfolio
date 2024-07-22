@@ -1,1 +1,3 @@
-<h3 class="self-center">Nothing is here yet</h3>
+<div class="w-full flex flex-col gap-16 network-page">
+
+</div>

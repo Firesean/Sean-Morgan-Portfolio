@@ -4,6 +4,7 @@
 	import "../dark-mode.css";
     import SunIcon from "$lib/components/icons/sun-icon.svelte";
     import MoonIcon from "$lib/components/icons/moon-icon.svelte";
+    import Resume from "$lib/components/resume.svelte";
 
 	import { onMount } from "svelte";
 
@@ -26,7 +27,7 @@
 	<title>Portfolio Page</title>
 </header>
 
-<div class="flex flex-wrap justify-center m-auto h-full w-full min-w-[400px] {modes[selectedMode]}">
+<div class="flex flex-wrap justify-center m-auto h-full w-full min-w-[400px] {modes[selectedMode]} print:hidden">
 	<slot />
 	<button class="text-red-600 fixed bottom-16 right-16" on:click={cycleMode}>
 		<div class="fixed">
@@ -35,3 +36,5 @@
 		</div>
 	  </button>
 </div>
+
+<Resume />
