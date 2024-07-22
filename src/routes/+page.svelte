@@ -15,7 +15,7 @@
 		"Network"
 	];
 
-	let selectedView = 3;
+	let selectedView = 1;
     let showOptions = false;
   
     function toggleOn() {
