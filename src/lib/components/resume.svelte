@@ -6,10 +6,10 @@
                 companyInfo: "Design Hedge, Las Vegas NV",
                 employmentDetails: "May 2024 - PRESENT, Self-Employed",
                 details: [
-                    "Platform Creation using Svelte, Node.js, Vercel, Supabase, D3",
-                    "Connected APIs with Stripe, Supabase, Google, Sendgrid",
-                    "Assisted team management",
-                    "Solo/Small Team for SaaS Product Creation",
+                    "Developed a comprehensive platform using Svelte, Node.js, Vercel, Supabase, and D3.js",
+                    "Connected and integrated APIs including Stripe for payment processing, Supabase for database and authentication, Google APIs for user authentication, and SendGrid for email communication",
+                    "Assisted in managing a small team to ensure project milestones were met",
+                    "Led the creation of a SaaS product, handling both front-end and back-end development",
                 ],
             },
             {
@@ -17,10 +17,10 @@
                 companyInfo: "Preflect, Las Vegas NV",
                 employmentDetails: "JULY 2023 - MAY 2024 (11 months), Full-time",
                 details: [
-                    "Front-end solutions with Node.js, Svelte, TailwindCSS, PostCSS",
-                    "Facebook, ChatGPT, Outside APIs",
-                    "Continuous learning for company challenges",
-                    "UI / UX Design Principles",
+                    "Created robust front-end solutions using Node.js, Svelte, TailwindCSS, and PostCSS",
+                    "Integrated various APIs including Facebook and ChatGPT to enhance platform capabilities",
+                    "Engaged in ongoing learning and adaptation to tackle company-specific challenges",
+                    "Applied UI/UX design principles to improve user experience and interface design",
                 ],
             },
             {
@@ -28,9 +28,9 @@
                 companyInfo: "The Influential Network, Las Vegas NV",
                 employmentDetails: "DECEMBER 2020 - JULY 2023 (2 years 8 months), Full-time",
                 details: [
-                    "Selenium, Mocha & Chai in Node.js",
-                    "Data entry, Data scraping",
-                    "Back-end testing with Kubernetes Pods",
+                    "Utilized Selenium, Mocha, and Chai in Node.js to automate testing processes",
+                    "Conducted data entry and data scraping tasks to support various projects",
+                    "Performed back-end testing with Kubernetes Pods to ensure system reliability",
                 ],
             },
             {
@@ -38,9 +38,9 @@
                 companyInfo: "Opportunity Village, Nellis AFB NV",
                 employmentDetails: "SEPTEMBER 2018 - NOVEMBER 2020 (2 Years 3 months), Full-time",
                 details: [
-                    "Transitioned from Food Service Sanitation to a General Clerk II",
-                    "Distributed mail across base",
-                    "Secret Government Security Clearance",
+                    "Successfully transitioned from Food Service Sanitation to General Clerk II",
+                    "Managed and distributed mail across the base efficiently",
+                    "Maintained a Secret Government Security Clearance",
                 ],
             }
         ],
@@ -51,12 +51,12 @@
                 duration: "JANUARY 2022 - MARCH 2023",
             },
             {
-                degree: "Computing and Information Science - Programming",
+                degree: "Associate in Applied Sciences for Computing and Information Science - Programming",
                 institution: "College of Southern Nevada, Las Vegas NV",
                 duration: "JANUARY 2017 - AUGUST 2021",
             },
             {
-                degree: "Computing and Information Science - Databases",
+                degree: "Associate in Applied Sciences for Computing and Information Science - Databases",
                 institution: "College of Southern Nevada, Las Vegas NV",
                 duration: "JANUARY 2017 - AUGUST 2021",
             }
