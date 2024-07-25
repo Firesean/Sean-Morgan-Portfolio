@@ -49,16 +49,19 @@
                 degree: "Bachelors in Computer Science (Incomplete)",
                 institution: "Western Governors University, Salt Lake City UT",
                 duration: "JANUARY 2022 - MARCH 2023",
+                courses: ["Introduction to IT", "Scripting and Programming", "Advanced Java", "Software Engineering"]
             },
             {
                 degree: "Associate in Applied Sciences for Computing and Information Science - Programming",
                 institution: "College of Southern Nevada, Las Vegas NV",
                 duration: "JANUARY 2017 - AUGUST 2021",
+                courses: ["College Math", "Networking +", "Advanced Java", "Advanced C++", "Web Development", "C Programming"]
             },
             {
                 degree: "Associate in Applied Sciences for Computing and Information Science - Databases",
                 institution: "College of Southern Nevada, Las Vegas NV",
                 duration: "JANUARY 2017 - AUGUST 2021",
+                courses: ["Database Concepts and SQL", "Project Management", "Computer Security", "Oracle", "Database Adminstration"],
             }
         ],
         "References": [
@@ -119,7 +122,12 @@
             <div class="mb-3">
                 <h3>{education.degree}</h3>
                 <i>{education.institution}</i>
-                <caption>{education.duration}</caption>
+                <caption class="flex flex-nowrap gap-2">
+                    {#each education.courses as course, i}
+                        {course}{#if i < education.courses.length - 1}<caption class='px-0.5'>|</caption>{/if}
+                    {/each}
+                </caption>
+                <caption class="text-left">{education.duration}</caption>
             </div>
         {/each}
     </div>
