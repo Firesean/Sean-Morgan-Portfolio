@@ -4,7 +4,7 @@
             {
                 title: "Full Stack Engineer",
                 companyInfo: "Design Hedge, Las Vegas NV",
-                employmentDetails: "May 2024 - PRESENT, Self-Employed",
+                employmentDetails: "May 2024 - PRESENT, Freelance",
                 details: [
                     "Developed a comprehensive platform using Svelte, Node.js, Vercel, Supabase, and D3.js",
                     "Connected and integrated APIs including Stripe for payment processing, Supabase for database and authentication, Google APIs for user authentication, and SendGrid for email communication",
