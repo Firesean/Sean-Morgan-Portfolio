@@ -1,4 +1,10 @@
 <script>
+    let summary = "I am a dedicated to growing as a Developer! " +
+    "My expertise spans across various technologies and frameworks, ranging from Python, Javascript, C++, etc. " +
+    "I have proved in my past endeavors I am capable of learning the skill required for the job at hand. " +
+    "I started my journey through experimentation with the Python language, spanning from GUI Development, Automation Scripts, and Hacking tools. " +
+    "Growing from my experiences I have branched into learning and understanding more into my own capabilities. " +
+    "I continue to grow and learn to develop and enchance previously created tools.";
     let resume = {
         "Work Experience": [
             {
@@ -49,19 +55,16 @@
                 degree: "Bachelors in Computer Science (Incomplete)",
                 institution: "Western Governors University, Salt Lake City UT",
                 duration: "JANUARY 2022 - MARCH 2023",
-                courses: ["Introduction to IT", "Scripting and Programming", "Advanced Java", "Software Engineering"]
             },
             {
-                degree: "Associate in Applied Sciences for Computing and Information Science - Programming",
+                degree: "Associate in Applied Sciences, Computing and Information Technology - Programming",
                 institution: "College of Southern Nevada, Las Vegas NV",
                 duration: "JANUARY 2017 - AUGUST 2021",
-                courses: ["College Math", "Networking +", "Advanced Java", "Advanced C++", "Web Development", "C Programming"]
             },
             {
-                degree: "Associate in Applied Sciences for Computing and Information Science - Databases",
+                degree: "Associate in Applied Sciences, Computing and Information Technology - Databases",
                 institution: "College of Southern Nevada, Las Vegas NV",
                 duration: "JANUARY 2017 - AUGUST 2021",
-                courses: ["Database Concepts and SQL", "Project Management", "Computer Security", "Oracle", "Database Adminstration"],
             }
         ],
         "References": [
@@ -102,12 +105,18 @@
         <h1>Sean Morgan</h1>
     </div>
     <div>
+        <h2>Professional Summary</h2>
+        <p class="text-left text-wrap whitespace-break-spaces summary indent-4 mb-3">
+            {summary}
+        </p>
         <h2>Work Experience</h2>
         {#each resume["Work Experience"] as job}
             <div class="mb-3">
                     <h3>{job.title}</h3>
-                    <i>{job.companyInfo}</i>
-                <h4>{job.employmentDetails}</h4>
+                    <div class="flex justify-between">
+                        <i>{job.companyInfo}</i>
+                        <caption>{job.employmentDetails}</caption>
+                    </div>
                 <div class="indent-4">
                     {#each job.details as detail}
                         <li>{detail}</li>
@@ -121,13 +130,10 @@
         {#each resume.Education as education}
             <div class="mb-3">
                 <h3>{education.degree}</h3>
-                <i>{education.institution}</i>
-                <caption class="flex flex-nowrap gap-2">
-                    {#each education.courses as course, i}
-                        {course}{#if i < education.courses.length - 1}<caption class='px-0.5'>|</caption>{/if}
-                    {/each}
-                </caption>
-                <caption class="text-left">{education.duration}</caption>
+                <div class="flex justify-between">
+                    <i>{education.institution}</i>
+                    <caption class="text-left">{education.duration}</caption>
+                </div>
             </div>
         {/each}
     </div>

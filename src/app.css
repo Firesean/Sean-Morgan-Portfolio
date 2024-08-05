@@ -89,3 +89,8 @@ h3 {
 .resume span {
     color : var(--secondary);
 }
+
+/* Professional Summary */
+.resume .summary {
+    color : var(--secondary);
+}
