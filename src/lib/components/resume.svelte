@@ -12,10 +12,11 @@
                 companyInfo: "Design Hedge, Las Vegas NV",
                 employmentDetails: "May 2024 - PRESENT, Freelance",
                 details: [
-                    "Developed a comprehensive platform using Svelte, Node.js, Vercel, Supabase, and D3.js",
-                    "Connected and integrated APIs including Stripe for payment processing, Supabase for database and authentication, Google APIs for user authentication, and SendGrid for email communication",
+                    "Led the creation of a SaaS product, handling both front-end and back-end development.",
+                    "Developed a comprehensive platform using Svelte from scratch.",
+                    "Created internal tools for business needs, ranging from Data Analytics Tools, Kanban Board, etc.",
                     "Assisted in managing a small team to ensure project milestones were met",
-                    "Led the creation of a SaaS product, handling both front-end and back-end development",
+                    "Tied APIs such as Stripe, Supabase, Sales Force, and Google to our analytics, databases, and internal toolings.",
                 ],
             },
             {
@@ -23,10 +24,10 @@
                 companyInfo: "Preflect, Las Vegas NV",
                 employmentDetails: "JULY 2023 - MAY 2024 (11 months), Full-time",
                 details: [
-                    "Created robust front-end solutions using Node.js, Svelte, TailwindCSS, and PostCSS",
-                    "Integrated various APIs including Facebook and ChatGPT to enhance platform capabilities",
-                    "Engaged in ongoing learning and adaptation to tackle company-specific challenges",
-                    "Applied UI/UX design principles to improve user experience and interface design",
+                    "Created robust front-end solutions using the Svelte webframework, such as a Drag and Drop Ad Image Pairing.",
+                    "Integrated various APIs including Facebook (Meta) and ChatGPT to enhance platform capabilities.",
+                    "Engaged in ongoing learning and adaptation to tackle company-specific challenges.",
+                    "Applied UI/UX design principles to improve user experience.",
                 ],
             },
             {
@@ -34,9 +35,9 @@
                 companyInfo: "The Influential Network, Las Vegas NV",
                 employmentDetails: "DECEMBER 2020 - JULY 2023 (2 years 8 months), Full-time",
                 details: [
-                    "Utilized Selenium, Mocha, and Chai in Node.js to automate testing processes",
-                    "Conducted data entry and data scraping tasks to support various projects",
-                    "Performed back-end testing with Kubernetes Pods to ensure system reliability",
+                    "Utilized Selenium, Mocha, and Chai in Node.js to create an automation system of hundreds of test cases.",
+                    "Conducted data entry and data scraping tasks to support various projects.",
+                    "Performed back-end testing with Kubernetes Pods to ensure system reliability.",
                 ],
             },
             {
@@ -44,9 +45,9 @@
                 companyInfo: "Opportunity Village, Nellis AFB NV",
                 employmentDetails: "SEPTEMBER 2018 - NOVEMBER 2020 (2 Years 3 months), Full-time",
                 details: [
-                    "Successfully transitioned from Food Service Sanitation to General Clerk II",
-                    "Managed and distributed mail across the base efficiently",
-                    "Maintained a Secret Government Security Clearance",
+                    "Successfully transitioned from Food Service Sanitation to General Clerk II.",
+                    "Managed and distributed mail across the base to thousands of Air Force Personnel and Squadrons.",
+                    "Maintained a Secret Government Security Clearance.",
                 ],
             }
         ],

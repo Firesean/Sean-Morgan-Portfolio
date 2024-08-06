@@ -25,3 +25,7 @@
 .dark .skill-container-inner, .dark .attached-bar-inner, .dark .toggle-slider{
     @apply bg-gray-800;
 }
+
+.dark .subtle-tile {
+    @apply rounded-lg border bg-black bg-opacity-40;
+}

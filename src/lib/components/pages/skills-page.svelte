@@ -1,12 +1,12 @@
 <script>
-    import SkillsContainer from "$lib/components/skills-container.svelte";
     import { onMount } from "svelte";
     import { writable } from "svelte/store";
+    import SkillsContainer from "$lib/components/utility/skills-container.svelte";
     
     const screenType = writable("unknown");
     let inColumn;
     const screenOptions = {
-      "desktop": 4,
+      "desktop": 3,
       "tablet": 3,
       "mobile": 1,
       "unknown": 1,
@@ -40,14 +40,16 @@
       return cleanup;
     });
   </script>
-  
-  <div class="h-full">
-    <div class="flex flex-row flex-wrap justify-center mx-auto">
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-16 mt-[400px]">
-        {#each Array(8) as item, i}
-          <SkillsContainer index={i} bind:inColumn />
-        {/each}
-      </div>
+
+  <div class="h-full w-[80%] mx-auto p-4 subtle-tile">
+    <div class="grid grid-cols-2 gap-16 mx-auto">
+      <SkillsContainer />
+      <SkillsContainer />
+      <SkillsContainer />
+      <SkillsContainer />
+      <SkillsContainer />
+      <SkillsContainer />
+
     </div>
   </div>
   

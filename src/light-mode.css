@@ -25,3 +25,7 @@ html {
 .light .highlight {
     @apply text-red-500;
 }
+
+.light .subtle-tile {
+    @apply rounded-lg border bg-gray-500 bg-opacity-20;
+}
