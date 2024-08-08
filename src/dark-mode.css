@@ -27,5 +27,5 @@
 }
 
 .dark .subtle-tile {
-    @apply rounded-lg border bg-black bg-opacity-40;
+    @apply rounded-lg bg-black bg-opacity-40;
 }

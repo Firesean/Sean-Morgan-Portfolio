@@ -41,15 +41,24 @@
     });
   </script>
 
-  <div class="h-full w-[80%] mx-auto p-4 subtle-tile">
-    <div class="grid grid-cols-2 gap-16 mx-auto">
-      <SkillsContainer />
-      <SkillsContainer />
-      <SkillsContainer />
-      <SkillsContainer />
-      <SkillsContainer />
-      <SkillsContainer />
-
+  <div class="h-full w-[70vw] mx-auto p-4">
+    <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8">
+      <div class="flex flex-wrap gap-4 h-full">
+        <SkillsContainer />
+        <SkillsContainer />
+      </div>
+      <div class="mt-8 flex flex-wrap gap-4 h-full">
+        <SkillsContainer />
+        <SkillsContainer />
+      </div>
+      <div class="mt-16 flex flex-wrap gap-4 h-full">
+        <SkillsContainer />
+        <SkillsContainer />
+      </div>
+      <div class="mt-24 flex flex-wrap gap-4 h-full">
+        <SkillsContainer />
+        <SkillsContainer />
+      </div>
     </div>
   </div>
   
