@@ -1,10 +1,10 @@
 <script>
-    let summary = "I am a dedicated to growing as a Developer! " +
+    let summary = "I am dedicated to growing as a Developer! " +
     "My expertise spans across various technologies and frameworks, ranging from <strong>Python, Javascript, C++, etc.</strong> " +
     "I have proved in my past endeavors I am capable of learning the skill required for the job at hand. " +
     "I started my journey through experimentation with the Python language, spanning from <strong>GUI Development, Automation Scripts, and Hacking tools.</strong> " +
     "Growing from my experiences I have branched into learning and understanding more into my own capabilities. " +
-    "I continue to grow and learn to develop and enchance previously created tools.";
+    "I continue to grow and learn to develop and enhance previously created tools.";
     let resume = {
         "Work Experience": [
             {
@@ -13,7 +13,7 @@
                 employmentDetails: "May 2024 - PRESENT, Freelance",
                 details: [
                     "Led the creation of a SaaS product, handling both front-end and back-end development.",
-                    "Developed a comprehensive platform using the <strong>Svelte webframework</strong> from scratch.",
+                    "Developed a comprehensive platform using the <strong>Svelte web framework</strong> from scratch.",
                     "Created internal tools for business needs, ranging from <strong>Data Analytics Tools, Kanban Board, etc.</strong>",
                     "Assisted in managing a small team to ensure project milestones were met",
                     "Tied APIs such as <strong>Stripe, Supabase, Sales Force, and Google</strong> to our analytics, databases, and internal toolings.",
@@ -24,7 +24,7 @@
                 companyInfo: "Preflect, Las Vegas NV",
                 employmentDetails: "JULY 2023 - MAY 2024 (11 months), Full-time",
                 details: [
-                    "Created robust front-end solutions using the <strong>Svelte webframework</strong>, such as a Drag and Drop Ad Image Pairing.",
+                    "Created robust front-end solutions using the <strong>Svelte webf ramework</strong>, such as a Drag and Drop Ad Image Pairing.",
                     "Integrated various APIs including <strong>Facebook (Meta) and ChatGPT</strong> to enhance platform capabilities.",
                     "Engaged in ongoing learning and adaptation to tackle company-specific challenges.",
                     "Applied <strong>UI/UX design principles</strong> to improve user experience.",
@@ -41,11 +41,11 @@
                 ],
             },
             {
-                title: "General Clerk II",
+                title: "Postal Clerk",
                 companyInfo: "Opportunity Village, Nellis AFB NV",
                 employmentDetails: "SEPTEMBER 2018 - NOVEMBER 2020 (2 Years 3 months), Full-time",
                 details: [
-                    "Successfully transitioned from Food Service Sanitation to General Clerk II.",
+                    "Successfully transitioned from Food Service Sanitation to Postal Clerk.",
                     "Managed and distributed mail across the base to thousands of Air Force Personnel and Squadrons.",
                     "Maintained a <strong>Secret Government Security Clearance.</strong>",
                 ],
