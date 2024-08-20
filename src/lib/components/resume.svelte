@@ -1,7 +1,7 @@
 <script>
     let summary = "I am dedicated to growing as a Developer! " +
     "My expertise spans across various technologies and frameworks, ranging from <strong>Python, Javascript, C++, etc.</strong> " +
-    "I have proved in my past endeavors I am capable of learning the skill required for the job at hand. " +
+    "I have been expertimenting and learning programming since 2017. " +
     "I started my journey through experimentation with the Python language, spanning from <strong>GUI Development, Automation Scripts, and Hacking tools.</strong> " +
     "Growing from my experiences I have branched into learning and understanding more into my own capabilities. " +
     "I continue to grow and learn to develop and enhance previously created tools.";
