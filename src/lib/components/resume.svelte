@@ -7,18 +7,18 @@
     "I continue to grow and learn to develop and enhance previously created tools.";
     let resume = {
         "Work Experience": [
-            {
-                title: "Full Stack Engineer",
-                companyInfo: "Design Hedge, Las Vegas NV",
-                employmentDetails: "May 2024 - PRESENT, Freelance",
-                details: [
-                    "Led the creation of a SaaS product, handling both front-end and back-end development.",
-                    "Developed a comprehensive platform using the <strong>Svelte web framework</strong> from scratch.",
-                    "Created internal tools for business needs, ranging from <strong>Data Analytics Tools, Kanban Board, etc.</strong>",
-                    "Assisted in managing a small team to ensure project milestones were met",
-                    "Tied APIs such as <strong>Stripe, Supabase, Sales Force, and Google</strong> to our analytics, databases, and internal toolings.",
-                ],
-            },
+            // {
+            //     title: "Full Stack Engineer",
+            //     companyInfo: "Design Hedge, Las Vegas NV",
+            //     employmentDetails: "May 2024 - PRESENT, Freelance",
+            //     details: [
+            //         "Led the creation of a SaaS product, handling both front-end and back-end development.",
+            //         "Developed a comprehensive platform using the <strong>Svelte web framework</strong> from scratch.",
+            //         "Created internal tools for business needs, ranging from <strong>Data Analytics Tools, Kanban Board, etc.</strong>",
+            //         "Assisted in managing a small team to ensure project milestones were met",
+            //         "Tied APIs such as <strong>Stripe, Supabase, Sales Force, and Google</strong> to our analytics, databases, and internal toolings.",
+            //     ],
+            // },
             {
                 title: "Software Engineer",
                 companyInfo: "Preflect, Las Vegas NV",
