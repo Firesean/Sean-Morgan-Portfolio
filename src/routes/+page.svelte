@@ -27,7 +27,7 @@
     }
 </script>
 
-<ViewSelector bind:views bind:selectedView />
+<!-- <ViewSelector bind:views bind:selectedView /> -->
 
 <div class="flex flex-col justify-center w-full h-full">
     <!-- svelte-ignore a11y-no-static-element-interactions -->
