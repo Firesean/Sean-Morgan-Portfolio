@@ -1,6 +1,6 @@
 <script>
     let summary = "Personal projects to school projects and now professional experience, I am growing as a Software Developer! " +
-    "I have experiemented with program languages, frameworks, tools, and etc. " +
+    "I have experimented with program languages, frameworks, tools, and etc. " +
     "Throughout my journey, I learned Python, C++, C, C#, Java, and Javascript. " +
     "Branching from Graphical User Interfaces, Web Development, Web Crawling, and even Pen Testing. " +
     "Always seeking the next opportunity to grow and develop my skills as an individual. " +
