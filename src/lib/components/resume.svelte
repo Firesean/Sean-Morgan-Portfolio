@@ -1,10 +1,10 @@
 <script>
-    let summary = "I am dedicated to growing as a Developer! " +
-    "My expertise spans across various technologies and frameworks, ranging from <strong>Python, Javascript, C++, etc.</strong> " +
-    "I have been expertimenting and learning programming since 2017. " +
-    "I started my journey through experimentation with the Python language, spanning from <strong>GUI Development, Automation Scripts, and Hacking tools.</strong> " +
-    "Growing from my experiences I have branched into learning and understanding more into my own capabilities. " +
-    "I continue to grow and learn to develop and enhance previously created tools.";
+    let summary = "Personal projects to school projects and now professional experience, I am growing as a Software Developer! " +
+    "I have experiemented with program languages, frameworks, tools, and etc. " +
+    "Throughout my journey, I learned Python, C++, C, C#, Java, and Javascript. " +
+    "Branching from Graphical User Interfaces, Web Development, Web Crawling, and even Pen Testing. " +
+    "Always seeking the next opportunity to grow and develop my skills as an individual. " +
+    "I want to grow as a person, and most importantly grow with a company. ";
     let resume = {
         "Work Experience": [
             // {
@@ -13,10 +13,10 @@
             //     employmentDetails: "May 2024 - PRESENT, Freelance",
             //     details: [
             //         "Led the creation of a SaaS product, handling both front-end and back-end development.",
-            //         "Developed a comprehensive platform using the <strong>Svelte web framework</strong> from scratch.",
-            //         "Created internal tools for business needs, ranging from <strong>Data Analytics Tools, Kanban Board, etc.</strong>",
+            //         "Developed a comprehensive platform using the Svelte web framework from scratch.",
+            //         "Created internal tools for business needs, ranging from Data Analytics Tools, Kanban Board, etc.",
             //         "Assisted in managing a small team to ensure project milestones were met",
-            //         "Tied APIs such as <strong>Stripe, Supabase, Sales Force, and Google</strong> to our analytics, databases, and internal toolings.",
+            //         "Tied APIs such as Stripe, Supabase, Sales Force, and Google to our analytics, databases, and internal toolings.",
             //     ],
             // },
             {
@@ -24,10 +24,11 @@
                 companyInfo: "Preflect, Las Vegas NV",
                 employmentDetails: "JULY 2023 - MAY 2024 (11 months), Full-time",
                 details: [
-                    "Created robust front-end solutions using the <strong>Svelte webf ramework</strong>, such as a Drag and Drop Ad Image Pairing.",
-                    "Integrated various APIs including <strong>Facebook (Meta) and ChatGPT</strong> to enhance platform capabilities.",
-                    "Engaged in ongoing learning and adaptation to tackle company-specific challenges.",
-                    "Applied <strong>UI/UX design principles</strong> to improve user experience.",
+                    "Preflect Ads, a start up that is funded by Mark Cuban in helping small companies market themselves online.",
+                    "Created frontend solutions with Svelte for a Drag & Drop Ad Image Pairing, Booking Widget, Cancellation Widget.",
+                    "Helped with backend code for various APIs including Facebook (Meta) and ChatGPT to enhance users marketing.",
+                    "Engaged in ongoing learning and adaptation from Web Development and UX/UI Design.",
+                    "Managed the site through details, layouts, and bugs fixes.",
                 ],
             },
             {
@@ -35,7 +36,8 @@
                 companyInfo: "The Influential Network, Las Vegas NV",
                 employmentDetails: "DECEMBER 2020 - JULY 2023 (2 years 8 months), Full-time",
                 details: [
-                    "Utilized <strong>Selenium, Mocha, and Chai in Node.js</strong> to create an automation system of hundreds of test cases.",
+                    "Influential, the #1 Influencer marketing company in the world. (Acquired by Publicis Groupe)",
+                    "Utilized Selenium, Mocha, and Chai in Node.js to create an automation system of hundreds of test cases.",
                     "Conducted data entry and data scraping tasks to support various projects.",
                     "Performed back-end testing with Kubernetes Pods to ensure system reliability.",
                 ],
@@ -47,7 +49,7 @@
                 details: [
                     "Successfully transitioned from Food Service Sanitation to Postal Clerk.",
                     "Managed and distributed mail across the base to thousands of Air Force Personnel and Squadrons.",
-                    "Maintained a <strong>Secret Government Security Clearance.</strong>",
+                    "Maintained a Secret Government Security Clearance.",
                 ],
             }
         ],
@@ -131,7 +133,7 @@
 
 <div class="resume w-full mx-auto px-16 py-4 hidden print:block">
     <div class="border-b-4 border-neutral-900 mb-3">
-        <p>Github : <strong><a href="https://github.com/Firesean">https://github.com/Firesean</a></strong></p>
+        <p>Github : <a href="https://github.com/Firesean">https://github.com/Firesean</a></p>
         <p>LinkedIn : <a href="https://www.linkedin.com/in/firesean/">https://www.linkedin.com/in/firesean/</a></p>
         <p>Phone : 702-469-0667</p>
         <p>Email : <a href="mailto:sean@flame-dev.com">sean@flame-dev.com</a></p>
@@ -165,7 +167,7 @@
                 <h3>{@html education.degree}</h3>
                 <div class="flex justify-between">
                     <i>{@html education.institution}</i>
-                    <caption class="text-left">{@html education.duration}</caption>
+                    <!-- <caption class="text-left">{@html education.duration}</caption> -->
                 </div>
             </div>
         {/each}
