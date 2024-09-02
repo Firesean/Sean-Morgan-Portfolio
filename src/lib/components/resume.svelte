@@ -28,7 +28,7 @@
                     "Created frontend solutions with Svelte for a Drag & Drop Ad Image Pairing, Booking Widget, Cancellation Widget.",
                     "Helped with backend code for various APIs including Facebook (Meta) and ChatGPT to enhance users marketing.",
                     "Engaged in ongoing learning and adaptation from Web Development and UX/UI Design.",
-                    "Managed the site through details, layouts, and bugs fixes.",
+                    "Managed the site through details, layouts, and bug fixes.",
                 ],
             },
             {
