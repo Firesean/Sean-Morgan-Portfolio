@@ -2,8 +2,10 @@
     import { onMount } from 'svelte';
   
     // Path to your PDF file in the static folder
-    const pdfUrl = 'static/assets/files/Portfolio-Page.pdf';
-  
+    if (window && typeof window !== undefined){
+        const pdfUrl = `${window.location.origin}/assets/files/Portfolio-Page.pdf`;
+    }
+
     function downloadPDF() {
       const link = document.createElement('a');
       link.href = pdfUrl;
@@ -14,6 +16,8 @@
     }
   
     onMount(() => {
-      downloadPDF();
+        if (window && typeof window !== undefined){
+            downloadPDF();
+        }
     });
 </script>
