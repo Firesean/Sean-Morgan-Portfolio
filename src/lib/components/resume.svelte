@@ -7,18 +7,18 @@
     "I want to grow as a person, and most importantly grow with a company. ";
     let resume = {
         "Work Experience": [
-            // {
-            //     title: "Full Stack Engineer",
-            //     companyInfo: "Design Hedge, Las Vegas NV",
-            //     employmentDetails: "May 2024 - PRESENT, Freelance",
-            //     details: [
-            //         "Led the creation of a SaaS product, handling both front-end and back-end development.",
-            //         "Developed a comprehensive platform using the Svelte web framework from scratch.",
-            //         "Created internal tools for business needs, ranging from Data Analytics Tools, Kanban Board, etc.",
-            //         "Assisted in managing a small team to ensure project milestones were met",
-            //         "Tied APIs such as Stripe, Supabase, Sales Force, and Google to our analytics, databases, and internal toolings.",
-            //     ],
-            // },
+            {
+                title: "Full Stack Engineer",
+                companyInfo: "Design Hedge, Las Vegas NV",
+                employmentDetails: "May 2024 - Sept 2024 (5 months), Freelance",
+                details: [
+                    "Led the creation of a SaaS product, handling both front-end and back-end development.",
+                    "Developed a comprehensive platform using the Svelte web framework from scratch.",
+                    "Created internal tools for business needs, ranging from Data Analytics Tools, Kanban Board, etc.",
+                    "Assisted in managing a small team to ensure project milestones were met",
+                    "Tied APIs such as Stripe, Supabase, Sales Force, and Google to our analytics, databases, and internal toolings.",
+                ],
+            },
             {
                 title: "Software Engineer",
                 companyInfo: "Preflect, Las Vegas NV",

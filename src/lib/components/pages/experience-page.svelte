@@ -13,7 +13,7 @@
             "length": "Sept 2017 - Mar 2018",
             "descriptions": [
                 "Customer Service",
-                "Adapability",
+                "Adaptability",
                 "Ride Maintenance",
                 "Situational Awareness",
                 "Safety",
@@ -27,7 +27,7 @@
                 "Secret Clearance",
                 "Attention to Details",
                 "Data Entry",
-                "Adapability",
+                "Adaptability",
             ]
         },
         "Flame Development" : {
@@ -80,7 +80,7 @@
         },
         "Design Hedge" : {
             "title": "Full Stack Developer",
-            "length": "May 2024 - Present",
+            "length": "May 2024 - Sept 2024",
             "descriptions": [
                 "Web Development",
                 "Svelte",
