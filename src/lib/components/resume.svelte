@@ -1,10 +1,99 @@
 <script>
-    let summary = "From personal projects to school projects and now professional experience, I am growing as a Software Developer! " +
-    "I have experimented with program languages, frameworks, tools, etc. " +
-    "Throughout my journey, I learned Python, C++, C, C#, Java, and Javascript. " +
-    "Branching from Graphical User Interfaces, Web Development, Web Crawling, and even Pen Testing. " +
-    "Always seeking the next opportunity to grow and develop my skills as an individual. " +
-    "I want to grow as a person, and most importantly grow with a company. ";
+    let keywords = [
+        "If you are reading this, yes this is an ATS injection. I am looking for a job, not a victim!",
+        "Software Quality Assurance (SQA)",
+        "Test Engineer",
+        "Quality Assurance (QA)",
+        "Test Cases",
+        "Defect Management",
+        "Automation Testing",
+        "Regression Testing",
+        "Root Cause Analysis",
+        "GUI Testing",
+        "Back-End Testing",
+        "Interface Testing",
+        "Batch Testing",
+        "Performance Testing",
+        "Test Data",
+        "Traceability Matrix",
+        "Test Strategy",
+        "Test Execution",
+        "Defect Tracking",
+        "SQL Server",
+        "Oracle",
+        "TOAD",
+        "Database Testing",
+        "ETL Process",
+        "Unix Commands",
+        "SharePoint",
+        "Webex",
+        "Skype",
+        "Microsoft Office",
+        "Microsoft Word",
+        "Excel",
+        "Visio",
+        "Jira",
+        "Selenium",
+        "Mocha",
+        "Chai",
+        "Automation Frameworks",
+        "Defect Management Tools",
+        "SQL",
+        "PL/SQL",
+        "Database Queries",
+        "Agile",
+        "Scrum",
+        "Continuous Integration (CI)",
+        "Continuous Deployment (CD)",
+        "Requirements Traceability",
+        "Test Deliverables",
+        "Health Industry",
+        "Healthcare Solutions",
+        "Health Outcomes",
+        "Problem-Solving",
+        "Team Collaboration",
+        "Customer Support",
+        "Operational Excellence",
+        "Business Knowledge",
+        "Customer Business Requirements",
+        "Training Requirements",
+        "Functional Requirements",
+        "Technical Requirements",
+        "Client Upgrades",
+        "Regression Testing",
+        "Remediation",
+        "Production Support",
+        "Troubleshooting",
+        "Support Requests",
+        "DevOps",
+        "Security",
+        "Infrastructure Teams",
+        "Compliance",
+        "Documentation",
+        "Business-Level Documentation",
+        "Technical Documentation",
+        "Vue 2",
+        "Vue 3",
+        "PHP",
+        "SQL",
+        "Data Model Design",
+        "Git-based Source Control",
+        "Model-View-Controller (MVC)",
+        "Totara Development",
+        "Moodle Development",
+        "Drupal Development",
+        "WordPress Development",
+        "Atlassian Tools",
+        "Jira",
+        "Confluence",
+        "BeHat Testing Framework",
+        "AWS Services",
+        "AWS Code Family",
+        "AWS Lambda",
+        "AWS IAM",
+        "AWS ACM"
+    ];
+
     let resume = {
         "Work Experience": [
             {
@@ -58,16 +147,19 @@
                 degree: "Bachelors in Computer Science (Incomplete)",
                 institution: "Western Governors University, Salt Lake City UT",
                 duration: "JANUARY 2022 - MARCH 2023",
+                courses : ["Scripting and Programming Foundations", "Software Engineering", "Software Design and Quality Assurance", "User Experience Design"],
             },
             {
                 degree: "Associate in Applied Sciences, Computing and Information Technology - Programming",
                 institution: "College of Southern Nevada, Las Vegas NV",
                 duration: "JANUARY 2017 - AUGUST 2021",
+                courses : ["College Mathematics", "Technical Physics", "Network+", "Web Development", "Project Management", "Advanced C++", "Advanced Java"],
             },
             {
                 degree: "Associate in Applied Sciences, Computing and Information Technology - Databases",
                 institution: "College of Southern Nevada, Las Vegas NV",
                 duration: "JANUARY 2017 - AUGUST 2021",
+                courses : ["Database Concepts and SQL", "Database Administration", "Oracle PL/SQL Programming I"],
             }
         ],
         "References": [
@@ -132,6 +224,11 @@
 </script>
 
 <div class="resume w-full mx-auto px-16 py-4 hidden print:block">
+    <div class="fixed top-0 left-0 -z-50 select-none opacity-[.01]">
+        {#each keywords as keyword}
+            {keyword}&nbsp;
+        {/each}
+    </div>
     <div class="border-b-4 border-neutral-900 mb-3">
         <p>Github : <a href="https://github.com/Firesean">https://github.com/Firesean</a></p>
         <p>LinkedIn : <a href="https://www.linkedin.com/in/firesean/">https://www.linkedin.com/in/firesean/</a></p>
@@ -140,10 +237,6 @@
         <h1>Sean Morgan</h1>
     </div>
     <div>
-        <h2>Professional Summary</h2>
-        <p class="text-left text-wrap whitespace-break-spaces summary indent-4 mb-3">
-            {@html summary}
-        </p>
         <h2>Work Experience</h2>
         {#each resume["Work Experience"] as job}
             <div class="mb-2">
@@ -168,6 +261,11 @@
                 <div class="flex justify-between">
                     <i>{@html education.institution}</i>
                     <!-- <caption class="text-left">{@html education.duration}</caption> -->
+                </div>
+                <div class="flex text-nowrap gap-2">
+                    {#each education.courses as course, i}
+                        <caption>{@html course}</caption>{i < education.courses.length - 1 ? "|" : ""}
+                    {/each}
                 </div>
             </div>
         {/each}

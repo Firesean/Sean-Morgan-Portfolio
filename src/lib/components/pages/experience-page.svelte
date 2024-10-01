@@ -38,7 +38,7 @@
                 "Node.js", // Application Creations, Automation, Scraping, Svelte, APIs, Mocha & Chai
                 "C++", // Win32Api, Memory Handling
                 "TailwindCSS", // CSS, Styling, Responsive Design
-                "Vercel", // Webhosting, DNS Records
+                "Vercel", // Web hosting, DNS Records
                 "APIs",
                 "UI/UX Design", // Figma, A/B Testing, Quality Assurance
                 "Databases",
