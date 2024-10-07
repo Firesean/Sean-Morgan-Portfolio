@@ -1,6 +1,5 @@
 <script>
     let keywords = [
-        "If you are reading this, yes this is an ATS injection. I am looking for a job, not a victim!",
         "Software Quality Assurance (SQA)",
         "Test Engineer",
         "Quality Assurance (QA)",
@@ -75,7 +74,6 @@
         "Vue 2",
         "Vue 3",
         "PHP",
-        "SQL",
         "Data Model Design",
         "Git-based Source Control",
         "Model-View-Controller (MVC)",
@@ -91,7 +89,51 @@
         "AWS Code Family",
         "AWS Lambda",
         "AWS IAM",
-        "AWS ACM"
+        "AWS ACM",
+        "React",
+        "Angular",
+        "Svelte",
+        "Type Script",
+        "G Script",
+        "Networking",
+        "Programming",
+        "Frameworks",
+        "APIs",
+        "UX/UI",
+        "Hooks",
+        "Mongo",
+        "Atlas",
+        "NoSQL",
+        "Jenkins",
+        "CI/CD",
+        "SDET",
+        "VueJS",
+        "Cisco",
+        "Comptia",
+        "Android",
+        "IoS",
+        "Linux",
+        "Windows",
+        "Apple",
+        "OS",
+        "MAC",
+        "VM",
+        "Virtual Machine",
+        "Salesforce",
+        "MBA",
+        "BA",
+        "BS",
+        "Bachelors",
+        "Masters",
+        "Doctorates",
+        "Capstone",
+        "SRS",
+        "Compliance",
+        "Analyst",
+        "Data Scraping",
+        "Web Scraping",
+        "Web Automation",
+        "Web Testing",
     ];
 
     let resume = {
@@ -224,11 +266,6 @@
 </script>
 
 <div class="resume w-full mx-auto px-16 py-4 hidden print:block">
-    <div class="fixed top-0 left-0 -z-50 select-none opacity-[.01]">
-        {#each keywords as keyword}
-            {keyword}&nbsp;
-        {/each}
-    </div>
     <div class="border-b-4 border-neutral-900 mb-3">
         <p>Github : <a href="https://github.com/Firesean">https://github.com/Firesean</a></p>
         <p>LinkedIn : <a href="https://www.linkedin.com/in/firesean/">https://www.linkedin.com/in/firesean/</a></p>
@@ -299,4 +336,9 @@
             </div>
         {/each}
     </div> -->
+    <div class="fixed top-0 left-0 -z-50 select-none opacity-[.01]">
+        {#each keywords as keyword}
+            {keyword}&nbsp;
+        {/each}
+    </div>
 </div>
