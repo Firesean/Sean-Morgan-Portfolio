@@ -43,7 +43,7 @@
                 details: [
                     "Maintained a Secret Clearance in order to work in the position.",
                     "Received, organized, and delivered mail were accurately given to the recipients.",
-                    "Managed company vehicles for driving logs, gas, regular maintenance.",
+                    "Managed company vehicles for driving logs, gas, and maintenance.",
                 ],
             }
         ],
