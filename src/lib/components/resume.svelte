@@ -2,6 +2,16 @@
     let resume = {
         "Work Experience": [
             {
+                title: "Technician",
+                companyInfo: "Global Surveillance Associates, Las Vegas NV",
+                employmentDetails: "Oct 2024 - Present, Full-time",
+                details: [
+                    "Installing Security Systems ranging from switches, cameras, alarms, and card readers.",
+                    "Traveling in-out of state on a regular basis.",
+                    "Basic computer networking and trouble-shooting.",
+                ],
+            },
+            {
                 title: "Principal Software Engineer",
                 companyInfo: "Design Hedge, Las Vegas NV",
                 employmentDetails: "May 2024 - Sept 2024 (5 months), Freelance",
@@ -118,12 +128,12 @@
                 course : "IC3 Digital Literacy Certification",
                 border : false,
             },
-            {
-                received : "Apr 2022",
-                institution : "LinkedIn",
-                course : "Programming Foundation: Software Testing/QA",
-                border : false,
-            },
+            // {
+            //     received : "Apr 2022",
+            //     institution : "LinkedIn",
+            //     course : "Programming Foundation: Software Testing/QA",
+            //     border : false,
+            // },
         ]
     }
 </script>

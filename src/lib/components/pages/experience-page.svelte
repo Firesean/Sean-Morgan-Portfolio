@@ -6,6 +6,8 @@
     import DesignHedgeLogo from "$lib/components/design-hedge-logo.svelte";
     import OpportunityVillageLogo from "$lib/components/opportunity-village-logo.svelte";
     import MiniGranPrixLogo from "$lib/components/mini-gran-prix-logo.svelte";
+    import GSALogo from "$lib/components/gsa-logo.svelte";
+
 
     let companies = {
         "Mini Gran Prix" : {
@@ -92,6 +94,18 @@
                 "UI/UX Design",
             ]
         },
+        "Global Surveillance Associates" : {
+            "title": "Technician",
+            "length": "Oct 2024 - Present",
+            "descriptions": [
+                "Networks",
+                "Cabling",
+                "Traveling",
+                "Installations",
+                "Troubleshooting",
+                "Maintenance",
+            ]
+        },
     };
 </script>
 
@@ -110,6 +124,8 @@
                 <DesignHedgeLogo size="280"/>
             {:else if details[0] == "Mini Gran Prix"}
                 <MiniGranPrixLogo size="350" />
+            {:else if details[0] == "Global Surveillance Associates"}
+                <GSALogo size="600"/>
             {/if}
         </CompanyDropdown>
     {/each}
