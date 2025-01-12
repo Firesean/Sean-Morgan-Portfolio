@@ -7,6 +7,7 @@
     import OpportunityVillageLogo from "$lib/components/opportunity-village-logo.svelte";
     import MiniGranPrixLogo from "$lib/components/mini-gran-prix-logo.svelte";
     import GSALogo from "$lib/components/gsa-logo.svelte";
+    import GoldenKnightsLogo from "$lib/components/golden-knights-logo.svelte";
 
 
     let companies = {
@@ -47,6 +48,17 @@
                 "Github", // Code Management, Source Control
                 "DNS Records",
                 "Networking",
+            ]
+        },
+        "City National Arena" : {
+            "title": "Scorekeeper",
+            "length": "June 2019 - Present",
+            "descriptions": [
+                "Hockey",
+                "Tournament Handling",
+                "Game Tracking",
+                "Situation Awareness",
+                "Professionalism",
             ]
         },
         "Influential Network" : {
@@ -126,6 +138,8 @@
                 <MiniGranPrixLogo size="350" />
             {:else if details[0] == "Global Surveillance Associates"}
                 <GSALogo size="600"/>
+            {:else if details[0] == "City National Arena"}
+                <GoldenKnightsLogo size="325"/>
             {/if}
         </CompanyDropdown>
     {/each}
