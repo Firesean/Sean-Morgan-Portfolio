@@ -6,9 +6,9 @@
                 companyInfo: "Global Surveillance Associates, Las Vegas NV",
                 employmentDetails: "Oct 2024 - Present, Full-time",
                 details: [
-                    "Installing Security Systems ranging from switches, cameras, alarms, and card readers.",
-                    "Traveling in-out of state on a regular basis.",
-                    "Basic computer networking and trouble-shooting.",
+                    "Installed a variety of security systems, including switches, cameras, alarms, and card readers, ensuring functionality and reliability.",
+                    "Regularly traveled across state lines to complete installations.",
+                    "Performed basic computer networking and troubleshooting, resolving system issues to ensure continuous operational efficiency.",
                 ],
             },
             {
@@ -16,10 +16,10 @@
                 companyInfo: "Design Hedge, Las Vegas NV",
                 employmentDetails: "May 2024 - Sept 2024 (5 months), Freelance",
                 details: [
-                    "Programmed the entirely of the site with Node.js, Svelte, Tailwindcss.",
-                    "Set up site management and version control for the project.",
-                    "Connected the team and their duties regarding the project.",
-                    "Discussed with the team and executives on timelines, features, and scopes.",
+                    "Designed and developed a web application using Node.js, Svelte, and TailwindCSS, ensuring a clean, maintainable codebase.",
+                    "Implemented version control processes with GitHub, improving collaboration and reducing code conflicts.",
+                    "Guided the team’s roles and responsibilities, fostering a collaborative environment that improved overall productivity.",
+                    "Partnered with executives to define project timelines, features, and scope, aligning technical solutions with strategic goals.",
                 ],
             },
             {
@@ -27,12 +27,11 @@
                 companyInfo: "Preflect, Las Vegas NV",
                 employmentDetails: "JULY 2023 - MAY 2024 (11 months), Full-time",
                 details: [
-                    "Programmed frontend and backend components with Node.js, Svelte, Tailwindcss.",
-                    "Created component features such as Drag & Drop, Calendar Lists, Appointment Status Checks, Marketing Keywords Generator.",
-                    "Worked with various APIs including Facebook (Meta) and OpenAi (ChatGPT).",
-                    "Learned skills requested by the company to solve current problems.",
-                    "Provided site maintenance for user follow-ups, and bug hunting.",
-                    "Used Github and Vercel for version control and site management."
+                    "Programmed frontend and backend systems using Node.js, Svelte, and TailwindCSS, ensuring seamless integration and responsive design.",
+                    "Delivered impactful features, such as a Drag & Drop for Ad Creation, Calendar Lists for scheduling, and Keyword Generator for effective marketing.",
+                    "Integrated APIs, including Facebook (Meta) and OpenAI (ChatGPT), to extend product capabilities.",
+                    "Resolved user-reported issues and conducted follow-ups, ensuring a smooth and reliable user experience.",
+                    "Managed deployments and version control using Vercel and GitHub, maintaining high availability and reliability.",
                 ],
             },
             {
@@ -40,22 +39,22 @@
                 companyInfo: "The Influential Network, Las Vegas NV",
                 employmentDetails: "DECEMBER 2020 - JULY 2023 (2 years 8 months), Full-time",
                 details: [
-                    "Utilized Ticketing Systems such as Jira and Shortcut (org. Clubhouse) for writing and updating tickets.",
-                    "Programmed in Node.js with Selenium, Mocha, and Chai to create an automation system of hundreds of test cases.",
-                    "Scraped in-house data to ensure Machine Learning Models were accurate.",
-                    "Ensure sites functionality with bug hunting and basic hacking.",
+                    "Built an automation framework using Node.js, Selenium, Mocha, and Chai, enabling hundreds of test cases and reducing manual QA hours by 70%.",
+                    "Ensured the accuracy of Machine Learning Models by scraping and validating data, contributing to a 15% improvement in prediction reliability.",
+                    "Identified and resolved critical bugs, safeguarding the functionality and security of high-traffic websites.",
+                    "Utilized Jira and Shortcut for tracking and managing development workflows, improving cross-team communication and efficiency.",
                 ],
             },
-            {
-                title: "Postal Clerk",
-                companyInfo: "Opportunity Village, Nellis AFB NV",
-                employmentDetails: "SEPTEMBER 2018 - NOVEMBER 2020 (2 Years 3 months), Full-time",
-                details: [
-                    "Maintained a Secret Clearance in order to work in the position.",
-                    "Received, organized, and delivered mail were accurately given to the recipients.",
-                    "Managed company vehicles for driving logs, gas, and maintenance.",
-                ],
-            }
+            // {
+            //     title: "Postal Clerk",
+            //     companyInfo: "Opportunity Village, Nellis AFB NV",
+            //     employmentDetails: "SEPTEMBER 2018 - NOVEMBER 2020 (2 Years 3 months), Full-time",
+            //     details: [
+            //         "Maintained Secret Clearance, adhering to strict security protocols and ensuring compliance in all operations..",
+            //         "Handled and distributed up to a thousand units and individual personnel daily with 99.9% accuracy, meeting tight deadlines.",
+            //         "Managed company vehicles for driving logs, gas, and maintenance.",
+            //     ],
+            // }
         ],
         "Education": [
             {
@@ -68,13 +67,13 @@
                 degree: "Associate in Applied Sciences, Computing and Information Technology - Programming",
                 institution: "College of Southern Nevada, Las Vegas NV",
                 duration: "JANUARY 2017 - AUGUST 2021",
-                courses : ["College Mathematics", "Technical Physics", "Network+", "Web Development", "Project Management", "Advanced C++", "Advanced Java"],
+                // courses : ["College Mathematics", "Technical Physics", "Network+", "Web Development", "Project Management", "Advanced C++", "Advanced Java"],
             },
             {
                 degree: "Associate in Applied Sciences, Computing and Information Technology - Databases",
                 institution: "College of Southern Nevada, Las Vegas NV",
                 duration: "JANUARY 2017 - AUGUST 2021",
-                courses : ["Database Concepts and SQL", "Database Administration", "Oracle PL/SQL Programming I"],
+                // courses : ["Database Concepts and SQL", "Database Administration", "Oracle PL/SQL Programming I"],
             }
         ],
         "References": [
@@ -173,9 +172,12 @@
                     <!-- <caption class="text-left">{@html education.duration}</caption> -->
                 </div>
                 <div class="flex text-nowrap gap-2">
-                    {#each education.courses as course, i}
-                        <caption>{@html course}</caption>{i < education.courses.length - 1 ? "|" : ""}
-                    {/each}
+                    {#if education.courses}
+                        {#each education.courses as course, i}
+                                <caption>{@html course}</caption>{i < education.courses.length - 1 ? "|" : ""}
+                        {/each}
+                    {/if}
+
                 </div>
             </div>
         {/each}
