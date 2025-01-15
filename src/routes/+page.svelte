@@ -4,7 +4,7 @@
     import NetworkPage from "$lib/components/pages/network-page.svelte";
     import AboutPage from "$lib/components/pages/about-page.svelte";
     import SkillsPage from "$lib/components/pages/skills-page.svelte";
-
+    import BouncingIcons from "$lib/components/utility/bouncing-icons.svelte";
 
     import ProfileImage from "$lib/assets/images/sean-morgan.jpg";
 
@@ -28,6 +28,7 @@
 </script>
 
 <!-- <ViewSelector bind:views bind:selectedView /> -->
+<BouncingIcons />
 
 <div class="flex flex-col justify-center w-full h-full">
     <!-- svelte-ignore a11y-no-static-element-interactions -->
