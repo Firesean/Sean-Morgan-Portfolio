@@ -43,8 +43,8 @@
     iconStates = icons.map(icon => ({
       x: Math.random() * containerWidth,
       y: Math.random() * containerHeight,
-      speedX: (Math.random() - 0.5) * 5 + 2,
-      speedY: (Math.random() - 0.5) * 5 + 2,
+      speedX: (Math.random() - 0.5) * 3 + 2,
+      speedY: (Math.random() - 0.5) * 3 + 2,
       size: icon.size,
     }));
 
