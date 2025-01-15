@@ -18,14 +18,14 @@
 
   // Define the icons array
   let icons = [
-    { component: PythonIcon, id: 'python', size: 100 },
-    { component: SvelteIcon, id: 'svelte', size: 100 },
-    { component: CPPIcon, id: 'c++', size: 100 },
-    { component: NodeJSIcon, id: 'node.js', size: 100 },
-    { component: SeleniumLogo, id: 'selenium', size: 100 },
-    { component: GithubLogo, id: 'github', size: 100 },
-    { component: TailwindCSSLogo, id: 'tailwindcss', size: 100 },
-    { component: SQLLogo, id: 'SQL', size: 100 },
+    { component: PythonIcon, id: 'python', size: 50 },
+    { component: SvelteIcon, id: 'svelte', size: 50 },
+    { component: CPPIcon, id: 'c++', size: 50 },
+    { component: NodeJSIcon, id: 'node.js', size: 50 },
+    { component: SeleniumLogo, id: 'selenium', size: 50 },
+    { component: GithubLogo, id: 'github', size: 50 },
+    { component: TailwindCSSLogo, id: 'tailwindcss', size: 50 },
+    { component: SQLLogo, id: 'SQL', size: 50 },
   ];
 
   let containerWidth = 0;
