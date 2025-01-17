@@ -41,7 +41,7 @@
                 details: [
                     "Built an automation framework using Node.js, Selenium, Mocha, and Chai, enabling hundreds of test cases and reducing manual QA hours by 70%.",
                     "Ensured the accuracy of Machine Learning Models by scraping and validating data, contributing to a 15% improvement in prediction reliability.",
-                    "Identified and resolved critical bugs, safeguarding the functionality and security of high-traffic websites.",
+                    "Identified and resolved critical bugs, safeguarding the functionality and security of test and production environments.",
                     "Utilized Jira and Shortcut for tracking and managing development workflows, improving cross-team communication and efficiency.",
                 ],
             },
