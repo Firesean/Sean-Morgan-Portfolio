@@ -9,7 +9,7 @@
   import GithubLogo from '$lib/components/icons/github-logo.svelte';
   import TailwindCSSLogo from '$lib/components/icons/tailwindcss-logo.svelte';
   import SQLLogo from '$lib/components/icons/sql-logo.svelte';
-
+  import VercelLogo from '$lib/components/icons/vercel-logo.svelte';
 
 
 
@@ -26,6 +26,8 @@
     { component: GithubLogo, id: 'github', size: 50 },
     { component: TailwindCSSLogo, id: 'tailwindcss', size: 50 },
     { component: SQLLogo, id: 'SQL', size: 50 },
+    { component: VercelLogo, id: 'Vercel', size: 30 },
+
   ];
 
   let containerWidth = 0;
