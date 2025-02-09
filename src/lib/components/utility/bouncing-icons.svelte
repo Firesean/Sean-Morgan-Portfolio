@@ -18,15 +18,15 @@
 
   // Define the icons array
   let icons = [
-    { component: PythonIcon, id: 'python', size: 50 },
-    { component: SvelteIcon, id: 'svelte', size: 50 },
-    { component: CPPIcon, id: 'c++', size: 50 },
-    { component: NodeJSIcon, id: 'node.js', size: 50 },
-    { component: SeleniumLogo, id: 'selenium', size: 50 },
-    { component: GithubLogo, id: 'github', size: 50 },
-    { component: TailwindCSSLogo, id: 'tailwindcss', size: 50 },
-    { component: SQLLogo, id: 'SQL', size: 50 },
-    { component: VercelLogo, id: 'Vercel', size: 30 },
+    { component: PythonIcon, id: 'python', size: 30 },
+    { component: SvelteIcon, id: 'svelte', size: 30 },
+    { component: CPPIcon, id: 'c++', size: 30 },
+    { component: NodeJSIcon, id: 'node.js', size: 30 },
+    { component: SeleniumLogo, id: 'selenium', size: 30 },
+    { component: GithubLogo, id: 'github', size: 30 },
+    { component: TailwindCSSLogo, id: 'tailwindcss', size: 30 },
+    { component: SQLLogo, id: 'SQL', size: 30 },
+    { component: VercelLogo, id: 'Vercel', size: 20 },
 
   ];
 

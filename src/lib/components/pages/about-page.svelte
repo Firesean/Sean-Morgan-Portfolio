@@ -4,10 +4,10 @@
     let infoBarHeight = "350px";
 
     let sections = {
-        "Introduction" : [
+        "Projects" : [
             // "You have a problem, a have a solution",
             // "Web Application, Automation, Scraping, IOT, I tinker in it all",
-            // "Enjoy learning and exploring new terrian",
+            // "Enjoy learning and exploring new terrain",
             // "I seek growth in developing my skills"
         ],
         "Education" : [

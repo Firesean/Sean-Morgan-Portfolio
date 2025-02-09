@@ -31,66 +31,66 @@ h3 {
 
 
 .resume {
-    --background : #eaebee;
-    --primary : #0b45a8;
-    --secondary : #1e2731;
-    background-color: var(--background);
+    --resume-background : #eaebee;
+    --resume-primary : #0b45a8;
+    --resume-secondary : #1e2731;
+    background-color: var(--resume-background);
 }
 
 /* Name */
 .resume h1 {
     @apply text-3xl font-medium font-sans;
-    color : var(--secondary);
+    color : var(--resume-secondary);
 }
 
 /* Labels */
 .resume h2{
     @apply text-base font-medium font-sans uppercase;
-    color : var(--secondary);
+    color : var(--resume-secondary);
 }
 
 /* Title */
 .resume h3 {
     @apply text-base uppercase font-sans text-nowrap;
-    color : var(--primary);
+    color : var(--resume-primary);
 }
 
 /* Company / Location */
 .resume i {
     @apply text-sm font-sans text-nowrap opacity-90;
-    color : var(--primary);
+    color : var(--resume-primary);
 }
 
 /* Work Time Range */
 .resume h4 {
     @apply text-sm font-sans;
-    color : var(--secondary);
+    color : var(--resume-secondary);
 }
 
 /* Contact Info */
 .resume p {
     @apply text-xs font-sans;
-    color : var(--primary);
+    color : var(--resume-primary);
 }
 
 /* Work Details */
 .resume li {
     @apply text-xs font-sans;
-    color : var(--secondary);
+    color : var(--resume-secondary);
 }
 
 /* Education Time Range */
 .resume caption {
     @apply text-xs font-sans text-nowrap opacity-70;
-    color : var(--secondary);
+    color : var(--resume-secondary);
 }
 
 /* Separators */
 .resume span {
-    color : var(--secondary);
+    color : var(--resume-secondary);
 }
 
 /* Professional Summary */
 .resume .summary {
-    color : var(--secondary);
+    color : var(--resume-secondary);
 }

@@ -6,7 +6,7 @@
 <style>
     #vercel {
         background-color: black;
-        padding : 1em;
+        padding : .4em;
         border-radius: 100%;
     }
 </style>
