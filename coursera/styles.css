@@ -6,4 +6,10 @@ nav ul {
 
 nav ul li{
     list-style-type: none;
+    font-size : 1.35em;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+    color:red;
 }
