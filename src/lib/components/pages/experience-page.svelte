@@ -10,16 +10,62 @@
     import GoldenKnightsLogo from "$lib/components/golden-knights-logo.svelte";
 
 
-    let companies = {
-        "Mini Gran Prix" : {
-            "title": "Ride Attendant",
-            "length": "Sept 2017 - Mar 2018",
+    let companies = {  
+        "Global Surveillance Associates" : {
+            "title": "Technician",
+            "length": "Oct 2024 - Present",
             "descriptions": [
-                "Customer Service",
-                "Adaptability",
-                "Ride Maintenance",
-                "Situational Awareness",
-                "Safety",
+                "Networks",
+                "Cabling",
+                "Traveling",
+                "Installations",
+                "Troubleshooting",
+                "Maintenance",
+            ]
+        },
+        "Design Hedge" : {
+            "title": "Principal Software Engineer",
+            "length": "May 2024 - Sept 2024",
+            "descriptions": [
+                "Web Development",
+                "Svelte",
+                "Vercel",
+                "TailwindCSS",
+                "Node.js",
+                "Figma Recreation",
+                "Github",
+                "UI/UX Design",
+            ]
+        }, 
+        "Preflect Ads" : {
+            "title": "Software Engineer",
+            "length": "July 2023 - May 2024",
+            "descriptions": [
+                "Web Development",
+                "AWS",
+                "Back-End APIs",
+                "Ngrok",
+                "Svelte",
+                "Vercel",
+                "TailwindCSS",
+                "Node.js",
+                "UI/UX Design",
+                "A/B Testing",
+                "Github"
+            ]
+        }, 
+        "Influential Network" : {
+            "title": "Quality Assurance Analyst",
+            "length": "Dec 2020 - July 2023",
+            "descriptions": [
+                "Web Automation",
+                "Python",
+                "Node.js",
+                "Mocha & Chai",
+                "Github",
+                "Jenkins",
+                "Kubernetes",
+                "MySQL" // Databases
             ]
         },
         "Opportunity Village" : {
@@ -61,61 +107,15 @@
                 "Professionalism",
             ]
         },
-        "Influential Network" : {
-            "title": "Quality Assurance Analyst",
-            "length": "Dec 2020 - July 2023",
+        "Mini Gran Prix" : {
+            "title": "Ride Attendant",
+            "length": "Sept 2017 - Mar 2018",
             "descriptions": [
-                "Web Automation",
-                "Python",
-                "Node.js",
-                "Mocha & Chai",
-                "Github",
-                "Jenkins",
-                "Kubernetes",
-                "MySQL" // Databases
-            ]
-        },
-        "Preflect Ads" : {
-            "title": "Software Engineer",
-            "length": "July 2023 - May 2024",
-            "descriptions": [
-                "Web Development",
-                "AWS",
-                "Back-End APIs",
-                "Ngrok",
-                "Svelte",
-                "Vercel",
-                "TailwindCSS",
-                "Node.js",
-                "UI/UX Design",
-                "A/B Testing",
-                "Github"
-            ]
-        },
-        "Design Hedge" : {
-            "title": "Principal Software Engineer",
-            "length": "May 2024 - Sept 2024",
-            "descriptions": [
-                "Web Development",
-                "Svelte",
-                "Vercel",
-                "TailwindCSS",
-                "Node.js",
-                "Figma Recreation",
-                "Github",
-                "UI/UX Design",
-            ]
-        },
-        "Global Surveillance Associates" : {
-            "title": "Technician",
-            "length": "Oct 2024 - Present",
-            "descriptions": [
-                "Networks",
-                "Cabling",
-                "Traveling",
-                "Installations",
-                "Troubleshooting",
-                "Maintenance",
+                "Customer Service",
+                "Adaptability",
+                "Ride Maintenance",
+                "Situational Awareness",
+                "Safety",
             ]
         },
     };
