@@ -94,6 +94,7 @@
                 "Github", // Code Management, Source Control
                 "DNS Records",
                 "Networking",
+                "Linux"
             ]
         },
         "City National Arena" : {
