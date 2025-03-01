@@ -68,6 +68,17 @@
                 "MySQL" // Databases
             ]
         },
+        "City National Arena" : {
+            "title": "Scorekeeper",
+            "length": "June 2019 - Present",
+            "descriptions": [
+                "Hockey",
+                "Tournament Handling",
+                "Game Tracking",
+                "Situation Awareness",
+                "Professionalism",
+            ]
+        },
         "Opportunity Village" : {
             "title": "General Clerk II",
             "length": "Sept 2018 - Nov 2020",
@@ -95,17 +106,6 @@
                 "DNS Records",
                 "Networking",
                 "Linux"
-            ]
-        },
-        "City National Arena" : {
-            "title": "Scorekeeper",
-            "length": "June 2019 - Present",
-            "descriptions": [
-                "Hockey",
-                "Tournament Handling",
-                "Game Tracking",
-                "Situation Awareness",
-                "Professionalism",
             ]
         },
         "Mini Gran Prix" : {
